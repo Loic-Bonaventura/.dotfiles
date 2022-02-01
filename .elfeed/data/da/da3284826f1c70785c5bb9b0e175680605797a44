@@ -1,0 +1,7 @@
+<article>
+	<section class="page">
+<p>The <strong>chpasswd</strong> command allows admins to change account passwords by piping username and password combinations to it.</p><p>This can be done one-account-at-a-time or by putting all of the accounts to be modified in a file and piping the file to the command.</p><aside class="fakesidebar"><a href="https://www.networkworld.com/newsletters/signup.html">[Get regularly scheduled insights by signing up for Network World newsletters.]</a></aside>
+<h2>How to use chpasswd</h2>
+<p>Using the <strong>chpasswd</strong> command requires root privilege. You can switch to the root account and run a command like this:</p><pre># echo nemo:imafish | chpasswd
+</pre>
+<p>Better yet, you can use <strong>sudo</strong> with a command like this:</p><p class="jumpTag"><a href="/article/3639611/using-chpasswd-to-change-account-passwords-on-linux.html#jump">To read this article in full, please click here</a></p></section></article>

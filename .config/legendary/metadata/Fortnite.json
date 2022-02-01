@@ -1,0 +1,233 @@
+{
+  "app_name": "Fortnite",
+  "app_title": "Fortnite",
+  "asset_infos": {
+    "Windows": {
+      "app_name": "Fortnite",
+      "asset_id": "Fortnite",
+      "build_version": "++Fortnite+Release-19.10-CL-18675304-Windows",
+      "catalog_item_id": "4fe75bbc5a674f4f9b356b5c90567da5",
+      "label_name": "Live-Windows",
+      "metadata": {},
+      "namespace": "fn"
+    }
+  },
+  "base_urls": [],
+  "metadata": {
+    "ageGatings": {},
+    "applicationId": "",
+    "categories": [
+      {
+        "path": "games"
+      },
+      {
+        "path": "applications"
+      }
+    ],
+    "creationDate": "2014-09-12T15:20:06.103Z",
+    "customAttributes": {
+      "AppAccessType": {
+        "type": "STRING",
+        "value": "Public"
+      },
+      "HasGateKeeper": {
+        "type": "STRING",
+        "value": "true"
+      },
+      "LaunchSocialOnFirstInstall": {
+        "type": "STRING",
+        "value": "true"
+      },
+      "RequirementsJson": {
+        "type": "STRING",
+        "value": "{\"Requirements\": {\"MacOS\": {\"MinMajorVersion\": 10, \"MinMinorVersion\" : 13, \"MinRevision\" : 6 }}}"
+      },
+      "SysTrayRestore": {
+        "type": "STRING",
+        "value": "{\"SysTrayRestoreDisable\": \"2021-12-04T20:00:00.000Z\", \"SysTrayRestoreEnable\": \"2021-12-06T12:00:00.000Z\"}"
+      },
+      "UseAccessControl": {
+        "type": "STRING",
+        "value": "true"
+      },
+      "com.epicgames.portal.product.privacyPolicyUrl": {
+        "type": "STRING",
+        "value": "https://www.epicgames.com/site/privacypolicy"
+      },
+      "com.epicgames.portal.product.websiteUrl": {
+        "type": "STRING",
+        "value": "https://www.epicgames.com/fortnite/home"
+      },
+      "extraLaunchOption_001_Args": {
+        "type": "STRING",
+        "value": "-Creative"
+      },
+      "extraLaunchOption_001_Name": {
+        "type": "STRING",
+        "value": "Launch Creative"
+      }
+    },
+    "description": "Battle. Build. Create. Fortnite is the free, always evolving, multiplayer game where you and your friends battle to be the last one standing or collaborate to create your dream Fortnite world. Play both Battle Royale and Fortnite Creative for FREE.",
+    "developer": "Epic Games",
+    "developerId": "o-aa83a0a9bc45e98c80c1b1c9d92e9e",
+    "dlcItemList": [
+      {
+        "ageGatings": {},
+        "applicationId": "",
+        "categories": [
+          {
+            "path": "addons"
+          },
+          {
+            "path": "applications"
+          }
+        ],
+        "creationDate": "2021-08-04T22:15:10.018Z",
+        "customAttributes": {
+          "CanSkipKoreanIdVerification": {
+            "type": "STRING",
+            "value": "true"
+          }
+        },
+        "description": "Unreal Editor for Fortnite",
+        "developer": "Epic Games",
+        "developerId": "o-aa83a0a9bc45e98c80c1b1c9d92e9e",
+        "endOfSupport": false,
+        "entitlementName": "1e8bda5cfbb641b9a9aea8bd62285f73",
+        "entitlementType": "EXECUTABLE",
+        "eulaIds": [],
+        "id": "1e8bda5cfbb641b9a9aea8bd62285f73",
+        "installModes": [],
+        "itemType": "DURABLE",
+        "keyImages": [],
+        "lastModifiedDate": "2021-08-17T11:58:41.537Z",
+        "mainGameItem": {
+          "id": "4fe75bbc5a674f4f9b356b5c90567da5",
+          "namespace": "fn",
+          "unsearchable": false
+        },
+        "namespace": "fn",
+        "releaseInfo": [
+          {
+            "appId": "Fortnite_Studio",
+            "compatibleApps": [],
+            "dateAdded": "2021-02-15T00:00:00.000Z",
+            "id": "c5193704047a4049aa82fe0600a853a8",
+            "platform": [
+              "Windows",
+              "Mac"
+            ],
+            "releaseNote": "",
+            "versionTitle": ""
+          }
+        ],
+        "requiresSecureAccount": false,
+        "status": "ACTIVE",
+        "title": "Unreal Editor for Fortnite",
+        "unsearchable": true
+      }
+    ],
+    "endOfSupport": false,
+    "entitlementName": "Fortnite",
+    "entitlementType": "EXECUTABLE",
+    "eulaIds": [
+      "fn"
+    ],
+    "id": "4fe75bbc5a674f4f9b356b5c90567da5",
+    "installModes": [],
+    "itemType": "DURABLE",
+    "keyImages": [
+      {
+        "height": 800,
+        "md5": "3ae6b693e86ea43567efe9337685b762",
+        "size": 281931,
+        "type": "Featured",
+        "uploadedDate": "2021-12-05T07:21:10.613Z",
+        "url": "https://cdn1.epicgames.com/item/fn/S19_AndroidLauncher_Keyart_800x800-3ae6b693e86ea43567efe9337685b762",
+        "width": 800
+      },
+      {
+        "height": 512,
+        "md5": "4cf4ff9eb0d623a2ae9cf5ecc49879c3",
+        "size": 294875,
+        "type": "AndroidIcon",
+        "uploadedDate": "2020-06-16T18:23:58.589Z",
+        "url": "https://cdn1.epicgames.com/fn/item/512-512x512-4cf4ff9eb0d623a2ae9cf5ecc49879c3.png",
+        "width": 512
+      },
+      {
+        "height": 2688,
+        "md5": "18f58d915a3079ac544ff69b69973c30",
+        "size": 1642695,
+        "type": "Screenshot",
+        "uploadedDate": "2021-12-05T07:21:30.496Z",
+        "url": "https://cdn1.epicgames.com/item/fn/EN_19BR_Screenshots_In-Game_UnlockTheBattlePass_1242x2688-18f58d915a3079ac544ff69b69973c30",
+        "width": 1242
+      },
+      {
+        "height": 2688,
+        "md5": "fb3ab7959317d04c07842639c4eb8b87",
+        "size": 1813816,
+        "type": "Screenshot",
+        "uploadedDate": "2021-12-05T07:21:25.005Z",
+        "url": "https://cdn1.epicgames.com/item/fn/EN_19BR_Screenshots_In-Game_PerfectYourStrategy_1242x2688-fb3ab7959317d04c07842639c4eb8b87",
+        "width": 1242
+      },
+      {
+        "height": 2688,
+        "md5": "c98f7dbae11a8375b538161abfbadd2b",
+        "size": 1544543,
+        "type": "Screenshot",
+        "uploadedDate": "2021-12-10T22:28:57.552Z",
+        "url": "https://cdn1.epicgames.com/item/fn/EN_19BR_Screenshots_In-Game_ShowOffYourMoves_1242x2688-c98f7dbae11a8375b538161abfbadd2b",
+        "width": 1242
+      },
+      {
+        "height": 2688,
+        "md5": "69ec03dd0fb05735c17279395ab2f5fb",
+        "size": 1647933,
+        "type": "Screenshot",
+        "uploadedDate": "2021-12-10T22:32:00.963Z",
+        "url": "https://cdn1.epicgames.com/item/fn/EN_19BR_Screenshots_In-Game_WinTogether_1242x2688-69ec03dd0fb05735c17279395ab2f5fb",
+        "width": 1242
+      },
+      {
+        "height": 1440,
+        "md5": "0c719814e3356a4726560c70f0462e7b",
+        "size": 3649077,
+        "type": "DieselGameBox",
+        "uploadedDate": "2021-12-05T07:20:30.488Z",
+        "url": "https://cdn1.epicgames.com/item/fn/19BR_KeyArt_EGS_Launcher_Blade_2560x1440_2560x1440-0c719814e3356a4726560c70f0462e7b",
+        "width": 2560
+      },
+      {
+        "height": 1600,
+        "md5": "b49da2ae039bd0adb44171318c91787b",
+        "size": 1429199,
+        "type": "DieselGameBoxTall",
+        "uploadedDate": "2021-12-05T07:20:42.429Z",
+        "url": "https://cdn1.epicgames.com/item/fn/19BR_KeyArt_EGS_Launcher_Blade_1200x1600_1200x1600-b49da2ae039bd0adb44171318c91787b",
+        "width": 1200
+      }
+    ],
+    "lastModifiedDate": "2022-01-18T20:38:04.986Z",
+    "longDescription": "**What's New**\nThe Island you once knew has been turned upside down...literally. Step foot onto the new Island and explore every corner of an undiscovered world in Fortnite Chapter 3 Season 1: Flipped. \n\nSwing through the iconic Daily Bugle or slide into Sanctuary, homebase of The Foundation and The Seven. Join The Seven as they prepare for a looming war against the Imagined Order across a once-frozen landscape filled with new POIs and dangerous new weather conditions to test your skills. Plus earn XP beyond Battle Royale to level up your Battle Pass and unlock Spider-Man, The Foundation, and all the new Battle Pass cosmetics. \n\nSee you on the flip side!\n\n\n**Description**\nFortnite is a world of many experiences. Drop onto the Island and compete to be the last player \u2014 or team \u2014 standing. Hang out with friends to catch a concert or a movie. Create a world of your own with your own rules, or discover a world created by other players. \n\nFortnite on mobile brings everything you love about the game onto your favorite on-the-go device. Join and chat with your friends -- regardless of what platform they\u2019re on -- and make progress on your Battle Pass the same way you would on a PC or console!\n\nTHE BATTLE IS BUILDING - Explore a large, destructible world where no two games are ever the same. Build huge forts, find loot and squad up with friends to earn your Victory Royale. \n\nSQUAD UP WITH FRIENDS - Take the party with you! Regardless of where your friends are playing, the Fortnite app lets you stay connected with your friends. \n\nEPIC UPDATES & EVENTS - Updates constantly fuel the fun. New gameplay modes, serious and insane new looks for your avatar, new weapons and items\u2026 Fortnite is always expanding.\n\nCONSOLE GAMING EXPERIENCE ON THE GO - Fortnite on mobile supports the most popular Bluetooth controllers on the market. After a quick pairing, you\u2019ll be able to use the same control scheme you\u2019re used to on consoles. \n\nRequires an internet connection.\n\nPowered by Unreal Engine.",
+    "namespace": "fn",
+    "releaseInfo": [
+      {
+        "appId": "Fortnite",
+        "compatibleApps": [],
+        "dateAdded": "2014-09-11T00:00:00.000Z",
+        "id": "5c45a347d7d64ca286db617722bfb57d",
+        "platform": [
+          "Windows",
+          "Mac"
+        ]
+      }
+    ],
+    "status": "ACTIVE",
+    "technicalDetails": "Fortnite requires an internet connection, Android 8.0 or higher, 64 bit, and 4GB of RAM. \n\nNot compatible with Fortnite? You can still download other great games like Battle Breakers on the Epic Games app.",
+    "title": "Fortnite",
+    "unsearchable": true
+  }
+}

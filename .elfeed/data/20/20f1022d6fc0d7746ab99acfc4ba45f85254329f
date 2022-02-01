@@ -1,0 +1,15 @@
+<p><p>Continuing to put their money where their mouth is, the team at Framework are keeping things open and they've just announced the source code release for their Embedded Controller firmware.</p>
+
+<p>What they're using is actually based on Google's chromium-ec project, which is the EC firmware used in Chromebooks. They've put the code up on <a href="https://github.com/FrameworkComputer/EmbeddedController" target="_blank">GitHub</a> under the BSD license. They didn't have to do this but it's great to see and keeps up with their commitment to allow people to do whatever they want with the Framework Laptop, which is one of the most exciting laptops we've seen for some time now.</p>
+
+<p>The Embedded Controller is what talks with low-level stuff like power sequencing, keyboard control, thermal control, battery charging and so on.</p>
+
+<p>Missed the news on Framework? It's a laptop that will come in two editions, and they fully support Linux with it too. The DIY edition comes with no operating system, and you get to build it yourself. It's really cool. It's modular, upgradable and the expansion card system looks great giving you tons of options for connectivity.</p>
+
+<p style="text-align:center"><img src="https://uploads.golmedia.net/uploads/articles/article_media/19298373961642789026gol1.jpg" /></p>
+
+<p>You will also find that their team has put up a few official Linux guides too like for <a href="https://guides.frame.work/Guide/Fedora+35+Installation+on+the+Framework+Laptop/108?lang=en" target="_blank">Fedora 35</a>, <a href="https://guides.frame.work/Guide/Ubuntu+21.10+Installation+on+the+Framework+Laptop/109?lang=en" target="_blank">Ubuntu 21.10</a>, and <a href="https://guides.frame.work/Guide/Manjaro+21.2.1+Installation+on+the+Framework+Laptop/111?lang=en" target="_blank">Manjaro 21.2.1</a> and they said more will be added over time. For now they're suggesting Fedora 35 for the best out of the box experience.</p>
+
+<p>They're currently accepting orders and pre-orders for multiple countries. The Framework Laptop starts at £999 but the DIY Edition is configurable from £749.</p>
+
+<p>See more about Framework on the <a href="https://frame.work" target="_blank">official site</a>.</p><div id="7trFZOtkax3fUjJ">Article from <a href="https://www.gamingonlinux.com/">GamingOnLinux.com</a> taken from the RSS feed.</div></p>

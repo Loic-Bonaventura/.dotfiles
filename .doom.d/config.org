@@ -1,0 +1,262 @@
+#+title: My Doom Emacs Config
+#+author: Loïc Bonaventura
+#+startup: showeverything
+#+property: header-args :tangle config.el
+
+* Table Of Contents :toc:
+- [[#additional-tips-for-doom-emacs][Additional Tips For Doom Emacs]]
+- [[#blink-cursor-mode][Blink Cursor Mode]]
+- [[#custom-keymaps][Custom Keymaps]]
+- [[#custom-options][Custom Options]]
+- [[#dired][Dired]]
+- [[#elfeed][Elfeed]]
+- [[#exwm-emacs-x-window-manager][EXWM (Emacs X Window Manager)]]
+- [[#font-and-line-settings][Font And Line Settings]]
+- [[#org-directory][Org Directory]]
+- [[#org-tree-slide][Org Tree Slide]]
+- [[#rainbow-mode][Rainbow Mode]]
+- [[#theme-settings][Theme Settings]]
+- [[#transparency][Transparency]]
+
+* Additional Tips For Doom Emacs
+
+Here are some additional functions/macros that could help you configure Doom:
+
+ - ~load!~ for loading external *.el files relative to this one
+ - ~use-package!~ for configuring packages
+ - ~after!~ for running code after a package has loaded
+ - ~add-load-path!~ for adding directories to the ~load-path~, relative to
+   this file. Emacs searches the ~load-path~ when you load packages with
+   ~require~ or ~use-package~.
+ - ~map!~ for binding new keys
+
+ To get information about any of these functions/macros, move the cursor over
+ the highlighted symbol at press 'K' (non-evil users must press 'C-c c k').
+ This will open documentation for it, including demos of how they are used.
+
+ You can also try 'gd' (or 'C-c c d') to jump to their definition and see how
+ they are implemented.
+* Blink Cursor Mode
+
+A mode enabling the cursor blinking.
+
+#+begin_src emacs-lisp
+(blink-cursor-mode)
+(setq blink-cursor-blinks 0)
+(setq blink-cursor-interval 0.6)
+#+end_src
+
+* Custom Keymaps
+
+#+begin_src
+
+#+end_src
+
+* Custom Options
+
+Disable confirmation prompt when exiting Emacs
+
+#+begin_src emacs-lisp
+(setq confirm-kill-emacs nil)
+#+end_src
+
+* Dired
+
+Different dired settings and customisation, so that it becomes as convenient as any other file manager.
+
+#+begin_src emacs-lisp
+(map! :leader
+      (:prefix ("d" . "dired")
+       :desc "Open dired" "d" #'dired
+       :desc "Dired jump to current" "j" #'dired-jump)
+      (:after dired
+       (:map dired-mode-map
+        :desc "Peep-dired image previews" "d p" #'peep-dired
+        :desc "Dired view file" "d v" #'dired-view-file)))
+
+(evil-define-key 'normal dired-mode-map
+  (kbd "M-RET") 'dired-display-file
+  (kbd "h") 'dired-up-directory
+  (kbd "l") 'dired-open-file ; use dired-find-file instead of dired-open.
+  (kbd "m") 'dired-mark
+  (kbd "t") 'dired-toggle-marks
+  (kbd "u") 'dired-unmark
+  (kbd "C") 'dired-do-copy
+  (kbd "D") 'dired-do-delete
+  (kbd "J") 'dired-goto-file
+  (kbd "M") 'dired-do-chmod
+  (kbd "O") 'dired-do-chown
+  (kbd "P") 'dired-do-print
+  (kbd "R") 'dired-do-rename
+  (kbd "T") 'dired-do-touch
+  (kbd "Y") 'dired-copy-filenamecopy-filename-as-kill ; copies filename to kill ring.
+  (kbd "+") 'dired-create-directory
+  (kbd "-") 'dired-up-directory
+  (kbd "% l") 'dired-downcase
+  (kbd "% u") 'dired-upcase
+  (kbd "; d") 'epa-dired-do-decrypt
+  (kbd "; e") 'epa-dired-do-encrypt)
+;; ;; Get file icons in dired
+;; (add-hook 'dired-mode-hook 'all-the-icons-dired-mode)
+;; With dired-open plugin, you can launch external programs for certain extensions
+;; For example, I set all .png files to open in 'sxiv' and all .mp4 files to open in 'mpv'
+(setq dired-open-extensions '(("gif" . "sxiv")
+                              ("jpg" . "sxiv")
+                              ("png" . "sxiv")
+                              ("mkv" . "mpv")
+                              ("mp4" . "mpv")))
+
+(evil-define-key 'normal peep-dired-mode-map
+  (kbd "j") 'peep-dired-next-file
+  (kbd "k") 'peep-dired-prev-file)
+(add-hook 'peep-dired-hook 'evil-normalize-keymaps)
+#+end_src
+
+* Elfeed
+
+An RSS newsfeed reader.
+
+#+begin_src emacs-lisp
+(use-package! elfeed-goodies)
+(elfeed-goodies/setup)
+(setq elfeed-goodies/entry-pane-size 0.5)
+(add-hook 'elfeed-show-mode-hook 'visual-line-mode)
+(evil-define-key 'normal elfeed-show-mode-map
+  (kbd "J") 'elfeed-goodies/split-show-next
+  (kbd "K") 'elfeed-goodies/split-show-prev)
+(evil-define-key 'normal elfeed-search-mode-map
+  (kbd "J") 'elfeed-goodies/split-show-next
+  (kbd "K") 'elfeed-goodies/split-show-prev)
+(setq elfeed-feeds (quote
+                    (("https://www.reddit.com/r/linux.rss" reddit linux)
+                     ("https://www.reddit.com/r/commandline.rss" reddit commandline)
+                     ("https://www.reddit.com/r/distrotube.rss" reddit distrotube)
+                     ("https://www.reddit.com/r/emacs.rss" reddit emacs)
+                     ("https://www.gamingonlinux.com/article_rss.php" gaming linux)
+                     ("https://hackaday.com/blog/feed/" hackaday linux)
+                     ("https://opensource.com/feed" opensource linux)
+                     ("https://linux.softpedia.com/backend.xml" softpedia linux)
+                     ("https://itsfoss.com/feed/" itsfoss linux)
+                     ("https://www.zdnet.com/topic/linux/rss.xml" zdnet linux)
+                     ("https://www.phoronix.com/rss.php" phoronix linux)
+                     ("http://feeds.feedburner.com/d0od" omgubuntu linux)
+                     ("https://www.computerworld.com/index.rss" computerworld linux)
+                     ("https://www.networkworld.com/category/linux/index.rss" networkworld linux)
+                     ("https://www.techrepublic.com/rssfeeds/topic/open-source/" techrepublic linux)
+                     ("https://betanews.com/feed" betanews linux)
+                     ("http://lxer.com/module/newswire/headlines.rss" lxer linux)
+                     ("https://distrowatch.com/news/dwd.xml" distrowatch linux))))
+
+(map! :leader
+      :desc "Opens the Elfeed newsreader in current buffer." "e e" 'elfeed
+      :desc "Fetches the latests posts for Elfeed"               "e u" 'elfeed-update)
+#+end_src
+
+* EXWM (Emacs X Window Manager)
+
+#+begin_src emacs-lisp
+;; (require 'exwm)
+;; (require 'exwm-config)
+;; (exwm-config-default)
+;; (require 'exwm-randr)
+;; (setq exwm-randr-workspace-monitor-plist '("eDP-1"))
+;; (add-hook 'exwm-randr-screen-change-hook
+;;           (lambda ()
+;;             (start-process-shell-command
+;;              "xrandr" nil "xrandr --output eDP-1 --scale 0.55")))
+;; (exwm-randr-enable)
+;; (require 'exwm-systemtray)
+;; (exwm-systemtray-enable)
+#+end_src
+
+* Font And Line Settings
+
+Doom exposes five (optional) variables for controlling fonts in Doom. Here
+are the three important ones:
+
++ ~doom-font~
++ ~doom-variable-pitch-font~
++ ~doom-big-font~ -- used for ~doom-big-font-mode~; use this for
+  presentations or streaming.
+
+They all accept either a font-spec, font string ("Input Mono-12"), or xlfd
+font string.
+
+#+begin_src emacs-lisp
+(setq doom-font (font-spec :family "JetBrainsMono Nerd Font" :size 14 ':antialias t)
+      doom-variable-pitch-font (font-spec :family "SF Pro Display" :size 13 :style 'normal)
+      doom-big-font (font-spec :family "JetBrainsMono Nerd Font" :size 16 :antialias t))
+(after! doom-themes
+  (setq doom-themes-enable-italic t))
+;; (custom-set-faces!
+;;   '(font-lock-comment-face :slant italic)
+;;   '(font-lock-keyword-face :slant italic))
+
+(setq display-line-numbers-type t)
+(map! :leader
+      :desc "Comment or uncomment lines" "TAB TAB" #'comment-line
+      (:prefix ("t" . "toggle")
+       :desc "Toggle line numbers" "l" #'doom/toggle-line-numbers
+       :desc "Toggle line highlight in frame" "h" #'hl-line-mode
+       :desc "Toggle line highlight globally" "H" #'global-hl-line-mode
+       :desc "Toggle truncate lines" "t" #'toggle-truncate-lines))
+#+end_src
+
+
+This determines the style of line numbers in effect. If set to ~nil~, line
+numbers are disabled. For relative line numbers, set this to ~relative~.
+
+#+begin_src emacs-lisp
+(setq display-line-numbers-type 'relative)
+#+end_src
+
+* Org Directory
+
+If you use `org' and don't want your org files in the default location below,
+change `org-directory'. It must be set before org loads!
+
+#+begin_src emacs-lisp
+(setq org-directory "/org/")
+#+end_src
+
+* Org Tree Slide
+
+Presentation slides for org files.
+
+#+begin_src emacs-lisp
+(use-package org-tree-slide
+  :custom
+  (org-image-actual-width nil))
+
+(map! :leader
+      :desc "Starts presentation mode for the org file in current buffer." "o o" 'org-tree-slide-mode)
+#+end_src
+
+* Rainbow Mode
+
+Allows all hex values in any filetype to be display their colour.
+
+#+begin_src emacs-lisp
+(rainbow-mode nil)
+(map! :leader
+      :desc "Enables rainbow-mode in current buffer." "t r")
+#+end_src
+
+* Theme Settings
+
+There are two ways to load a theme. Both assume the theme is installed and
+available. You can either set ~doom-theme~ or manually load a theme with the
+~load-theme~ function. This is the default:
+
+#+begin_src emacs-lisp
+(setq doom-theme 'doom-one)
+#+end_src
+
+* Transparency
+
+Makes Emacs transparent.
+
+#+begin_src emacs-lisp
+(set-frame-parameter (selected-frame) 'alpha '(96 96))
+(add-to-list 'default-frame-alist '(alpha 96 96))
+#+end_src

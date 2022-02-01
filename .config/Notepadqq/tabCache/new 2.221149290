@@ -1,0 +1,6 @@
+const noam = {
+	wakesUpAt: '11AM',
+	isAlwaysTired: true
+};
+
+console.log(noam);fsqfsqlmdflksqdkljkdsflkmqflmk

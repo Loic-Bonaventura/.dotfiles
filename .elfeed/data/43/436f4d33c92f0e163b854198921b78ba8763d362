@@ -1,0 +1,1 @@
+Ksplice allows our customers to stay up to date without downtime, by live patching code fixes at runtime for the Linux kernel, Xen, Openssl and Glibc. Live patching the kernel whilst it's running is akin to fixing a plane engine while it is flying.

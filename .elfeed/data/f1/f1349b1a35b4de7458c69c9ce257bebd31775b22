@@ -1,0 +1,1 @@
+We can use multiple tools to monitor system statistics, but if you are looking for virtual memory, use vmstat, which support numerous options and parameters.

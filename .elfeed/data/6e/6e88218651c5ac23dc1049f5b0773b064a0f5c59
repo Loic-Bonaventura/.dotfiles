@@ -1,0 +1,9 @@
+<article>
+	<section class="page">
+<p>The <strong>dmesg</strong> command displays the content of the kernel's message buffer since the system's most recent boot. It displays a lot of details on how the system is working and problems it might be running into that you won't normally see. That can be a lot of data, but there are several tricks for paring it down.</p><p>For example, Even though the system queried below has only been up a little more than three days, it's collected more than a thousand lines of data.</p><pre>$ dmesg | wc -l
+1034
+</pre>
+<aside class="fakesidebar"><a href="https://www.networkworld.com/article/3342454/linux-security-cmd-provides-visibility-control-over-user-activity.html">Linux security: Cmd provides visibility, control over user activity</a>
+<aside class="fakesidebar"><a href="https://www.networkworld.com/newsletters/signup.html">[Get regularly scheduled insights by signing up for Network World newsletters.]</a></aside>
+</aside>
+<p>If you type only <strong>dmesg</strong>, you will see all available data. Sudo access is not required. You can also pipe the output of <strong>dmesg</strong> to the <strong>more</strong> and <strong>less</strong> commands to scan through it or simply pipe the output to<a href="https://www.networkworld.com/article/2757239/how-to--grep-tricks-for-linux-users.html"> <strong>grep</strong></a>, but the command itself provides a lot of options for selecting the most relevant information from the file.</p><p class="jumpTag"><a href="/article/3643696/use-dmseg-to-check-your-linux-systems-kernel-message-buffer.html#jump">To read this article in full, please click here</a></p></section></article>

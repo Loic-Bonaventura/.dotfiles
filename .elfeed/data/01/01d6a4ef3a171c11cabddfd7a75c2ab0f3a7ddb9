@@ -1,0 +1,1 @@
+In this Linux tip, learn how to use the dmesg command. It's a command that displays the content of the kernel message buffer – messages that were sent by various system services such as device drivers. You can view a lot of information that you would normally not see and get insights into how your system is working.

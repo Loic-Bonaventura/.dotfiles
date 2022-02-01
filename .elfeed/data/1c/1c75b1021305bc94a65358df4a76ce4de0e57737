@@ -1,0 +1,13 @@
+<p><p>More improvements will be coming to Linux graphics drivers, as Valve have sponsored work towards continuous integration (CI) testing. Focused on AMD GPUs of course, since that is what the Steam Deck will be using so it's good news for both the Linux desktop and Valve's upcoming handheld.</p>
+
+<p>From the <a href="https://gitlab.freedesktop.org/mesa/mesa/-/merge_requests/14660" target="_blank">Draft Merge Request</a> created by Igalia developer Charlie Turner:</p>
+
+<blockquote>
+<p>This series proposes to add more dEQP bare-metal runners, sponsored by Valve. For now the runners are conditioned on a selection of users (similar to how freedreno's restricted traces work), since there are not enough machines to hit the runtime targets required for inclusion in the automatic pre-merge pipelines. There's nothing secret about the test loads, the restriction is purely practical for now and any interested user may request access to the runners.</p>
+
+<p>A follow-up series will add trace testing runners to the CI, using a similar approach to the above.</p>
+</blockquote>
+
+<p>dEQP (drawElements Quality Program) contains tests for multiple graphics APIs and should hopefully pick up issues <em>before</em> they end up going out to the public driver releases. All part of the work towards keeping Mesa Linux graphics drivers running smoothly. There is only so much developers can test directly on owned hardware, and CI testing is essential towards reducing the burden of that (and it's used across many computing fields).</p>
+
+<p>All good news, and should keep getting better.</p><div id="LnoVD4sjvBy_eVs">Article from <a href="https://www.gamingonlinux.com/">GamingOnLinux.com</a> taken from the RSS feed.</div></p>

@@ -1,0 +1,31 @@
+! Custom
+! Original theme https://github.com/nathanbuchar/atom-one-dark-terminal
+*.foreground:    #51AFEF
+*.background:    #282C34
+*.cursorColor:   #528BFF
+*.highlightColor:#3A3F4B
+
+! Black
+*.color0:        #1C1F24
+*.color8:        #5B6268
+! Red
+*.color1:        #FF6C6B
+*.color9:        #DA8548
+! Green
+*.color2:        #98BE65
+*.color10:       #4DB5BD
+! Yellow
+*.color3:        #ECBE7B
+*.color11:       #ECBE7B
+! Blue
+*.color4:        #51AFEF
+*.color12:       #3071DB
+! Magenta
+*.color5:        #C678DD
+*.color13:       #A9A1E1
+! Cyan
+*.color6:        #5699AF
+*.color14:       #46D9FF
+! White
+*.color7:        #DFDFDF
+*.color15:       #DFDFDF

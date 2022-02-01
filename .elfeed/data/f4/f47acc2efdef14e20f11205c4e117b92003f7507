@@ -1,0 +1,13 @@
+<p><p>Quake II RTX from Lightspeed Studios and NVIDIA just recently gained another big upgrade, this time with some AMD tech thanks to community-provided code. This is possible since it's <a href="https://github.com/NVIDIA/Q2RTX" target="_blank">open source</a>. Still quite surprising though but goes to show how people just want to make gaming better, regardless of hardware vendor politics.</p>
+
+<p>With the release of Quake II RTX 1.6.0 it didn't just bring AMD FidelityFX Super Resolution (FSR) but upgraded many parts of the game with new features too.</p>
+
+<p style="text-align:center"><a data-fancybox="images" href="https://uploads.golmedia.net/uploads/articles/article_media/15860005661643015272gol1.jpg" target="_blank"><img src="https://uploads.golmedia.net/uploads/articles/article_media/15860005661643015272gol1.jpg" /></a></p>
+
+<p>Some of the other improvements include a removal of the NVIDIA Vulkan Ray Tracing extension, since it has been replaced by the vendor neutral extension now. Bigger additions came with support for nearest filtering on world textures, making any models translucent, polygonal light extraction from MD2/MD3/IQM models, smooth normals on the world mesh through a BSPX extension, support for unlit fog volumes and more new features.</p>
+
+<p>You can also now change VSync without reloading the renderer, they extended the supported light style range to 200% to fix over-bright lighting, improved CPU performance, added anisotropic texture sampling for objects seen in reflections and refractions using ray cones, improved the handling of transparent effects in the acceleration structures and the list goes on. That's not even getting to community contributions like the aforementioned AMD FSR, saving and loading games in expansion packs, better support for old mods and enabled x86 builds of the dedicated server, improved behavior of Dynamic Resolution Scaling on map changes and so on.</p>
+
+<p>All sounds pretty great. Quake II RTX is turning into quite the playground of graphics tech.</p>
+
+<p>You can play <a href="https://store.steampowered.com/app/1089130/Quake_II_RTX/?curator_clanid=4218320" target="_blank">Quake II RTX on Steam</a>. The first 3 levels are free but to play the rest with it you also need to buy the original Quake II.</p><div id="t00iP3_S7bQQnLx">Article from <a href="https://www.gamingonlinux.com/">GamingOnLinux.com</a> taken from the RSS feed.</div></p>

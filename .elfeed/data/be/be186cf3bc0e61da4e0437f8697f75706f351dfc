@@ -1,0 +1,13 @@
+<p><p>The RetroArch frontend application for emulators, game engines and media players has a new release up and there's plenty of great sounding improvements for Linux users. This should make it play even better with the Steam Deck!</p>
+
+<p>Netplay was a particular focus for <a href="https://www.libretro.com/index.php/retroarch-1-10-0-release/" target="_blank">RetroArch 1.10.0</a>. Their relay system to help players connect together is now online, along with some improvements like adding custom relay server support. uPnP support also had a "complete overhaul".</p>
+
+<p>Specifically for Linux there's a couple of Wayland improvements like ignoring mouse clicks on window decoration and scroll wheel support. There's now support for libdecor for client-side decorations, a fix for window closing, the window title correctly updates on Wayland and more minor fixes.</p>
+
+<p style="text-align:center"><a data-fancybox="images" href="https://uploads.golmedia.net/uploads/articles/article_media/10039760021643019815gol1.png" target="_blank"><img src="https://uploads.golmedia.net/uploads/articles/article_media/10039760021643019815gol1.png" /></a></p>
+
+<p>A couple of Vulkan API improvements came in too like: double combined image sampler descriptor pool size, fixing segfaults with AMD GPUs using RADV; emulate mailbox only with Vsync enabled, otherwise have it disabled which is useful for VRR/G-Sync/FreeSync and also Vulkan max swapchain images option adjustments: removed value 1, since it won’t be used – Video reinit on change, so that there is no need to restart or toggle fullscreen.</p>
+
+<p>Plus, support for <a href="https://github.com/FeralInteractive/gamemode" target="_blank">GameMode</a> was added directly into the RetroArch UI.</p>
+
+<p>The other major addition is HDR support but that's not currently for Linux, since we don't have HDR yet.</p><div id="HaTwwSG1A@qrcKu">Article from <a href="https://www.gamingonlinux.com/">GamingOnLinux.com</a> taken from the RSS feed.</div></p>

@@ -1,0 +1,1 @@
+In this Linux tip, learn how to use the csplit command. It's a command that lets you split a file into pieces based on its content. For example, you might separate a file based on chapter headings, dates or content separators of some kind. Think of "csplit" as meaning "context split."

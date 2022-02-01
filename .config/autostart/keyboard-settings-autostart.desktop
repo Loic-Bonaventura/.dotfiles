@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Icon=preferences-desktop-keyboard
+Name=Keyboard Settings setup
+Comment=Sets up your preferred keyboard settings
+Exec=setxkbmap  -option grp:rctrl_rshift_toggle "fr,fr(mac)" -model apple
+OnlyShowIn=LXDE

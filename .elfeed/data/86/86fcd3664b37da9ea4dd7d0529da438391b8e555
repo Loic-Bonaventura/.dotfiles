@@ -1,0 +1,9 @@
+<p><p>Valve continue burning the midnight oil as it's getting close to the Steam Deck launch now. Their classics continue getting updated, with Half-Life 2 getting a new UI.</p>
+
+<p>While they've already added Vulkan support to multiple older titles using DXVK-Native, it appears they're now moving on to make more changes to help players on gamepads work with their games. It makes sense of course, since having their own games work great on the Steam Deck is a must.</p>
+
+<p style="text-align:center"><a data-fancybox="images" href="https://uploads.golmedia.net/uploads/articles/article_media/11059508301643191748gol1.jpg" target="_blank"><img src="https://uploads.golmedia.net/uploads/articles/article_media/11059508301643191748gol1.jpg" /></a><a data-fancybox="images" href="https://uploads.golmedia.net/uploads/articles/article_media/5379551581643191749gol1.jpg" target="_blank"><img src="https://uploads.golmedia.net/uploads/articles/article_media/5379551581643191749gol1.jpg" /></a></p>
+
+<p>You can opt into the Beta branch for Half-Life 2 on Steam and set "-gamepadui" as a launch option. Right now though, it doesn't seem to work in the Linux version but does show up when running it with <a href="http://steamproton.com" target="_blank">Steam Play Proton</a>. It's currently a work in progress.</p>
+
+<p>Will be interesting to see if / when they give the same treatment to other titles as needed to get them feeling a little bit more modern. The old grey boxed UI for Valve games is a bit rough now, it didn't age too well.</p><div id="cj56_LYMydIXL@s">Article from <a href="https://www.gamingonlinux.com/">GamingOnLinux.com</a> taken from the RSS feed.</div></p>

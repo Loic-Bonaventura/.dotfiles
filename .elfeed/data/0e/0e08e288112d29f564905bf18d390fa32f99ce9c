@@ -1,0 +1,1 @@
+Security researchers from Qualys have disclosed a flaw in the Polkit (formerly PolicyKit) component present in all GNU/Linux distributions for controlling system-wide privileges.

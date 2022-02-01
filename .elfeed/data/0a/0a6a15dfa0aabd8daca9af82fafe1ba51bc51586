@@ -1,0 +1,1 @@
+Apache Solr or Solr is a free and open-source search platform based on the Apache Lucene library. In this guide, you will learn how to install Apache Solr on the Rocky Linux system, enable Solr basic authentication, set up max open files limit and max processes limit for Solr deployment, and how to create the first Solr core from the command line.

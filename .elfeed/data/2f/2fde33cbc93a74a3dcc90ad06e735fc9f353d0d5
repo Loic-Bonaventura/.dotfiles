@@ -1,0 +1,10 @@
+<article>
+	<section class="page">
+<p>The <strong>bpytop</strong> tool is similar to other performance monitoring tools available for Linux systems like top, iotop, htop, bashtop etc. It’s a terminal-based resource monitor that works efficiently and is visually appealing.</p><p>The tool was ported from <strong>bashtop</strong> and rewritten in Python, so you need to have Python—version 3.6 or later—installed on your system to use it. (The “bpy” portion of the name undoubtedly stands for “bash Python”.)</p><p>If you already have Python installed on your system, you can check the version using one of these sets of commands:</p><pre>Fedora                       Linux Mint
+======                       ==========
+$ which python               $ which python3
+/usr/bin/python              /usr/local/bin/python3
+$ python -V                  $ python3 -V
+Python 3.9.7                 Python 3.8.10
+</pre>
+<p>Both systems shown are running Python3, but the Fedora system has /usr/bin/python set up as a symbolic link to python and the other system does not. So, they’re both using Python3.</p><p class="jumpTag"><a href="/article/3640614/monitoring-linux-system-resources-with-bpytop.html#jump">To read this article in full, please click here</a></p></section></article>

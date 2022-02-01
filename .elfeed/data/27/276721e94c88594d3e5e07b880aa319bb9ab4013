@@ -1,0 +1,10 @@
+<article>
+	<section class="page">
+<p>The <strong>xargs</strong> command on Linux can make it easier to build and execute commands. If you want to run the same command for a group of files or users, <strong>xargs</strong> can often make that process easier. Here's a very simple example of <strong>xargs </strong>that creates or updates the update time on some files.</p><pre>$ echo file1 file2 file3 | xargs touch
+$ ls -l
+total 0
+-rw-r--r--. 1 shs shs 0 Oct 15 12:41 file1
+-rw-r--r--. 1 shs shs 0 Oct 15 12:41 file2
+-rw-r--r--. 1 shs shs 0 Oct 15 12:41 file3
+</pre>
+<p>The command below is similar, but creates a file with blanks in its name because the <strong>-d</strong> specifies the input termination character.</p><p class="jumpTag"><a href="/article/3636997/using-the-xargs-command-on-linux-to-simplify-your-work.html#jump">To read this article in full, please click here</a></p></section></article>

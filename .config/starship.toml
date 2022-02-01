@@ -1,0 +1,91 @@
+add_newline = false
+command_timeout = 1000
+
+[line_break]
+disabled = true
+
+[character]
+success_symbol = '[🠆 ](#46D9FF)'
+error_symbol = '[❯](#FF6C6B)'
+
+# [character]
+# success_symbol = '[❯🠆](#46D9FF)'
+# error_symbol = '[❯](#FF6C6B)'
+
+[aws]
+symbol = "  "
+
+[conda]
+symbol = " "
+
+[dart]
+symbol = " "
+
+[directory]
+read_only = " "
+style = "#46D9FF"
+truncation_length = 2
+truncate_to_repo = true
+truncation_symbol =".../"
+
+[docker_context]
+symbol = " "
+
+[elixir]
+symbol = " "
+
+[elm]
+symbol = " "
+
+[git_branch]
+symbol = " "
+
+[golang]
+symbol = " "
+
+[hg_branch]
+symbol = " "
+
+[java]
+symbol = " "
+
+[julia]
+symbol = " "
+
+[memory_usage]
+symbol = " "
+
+[nim]
+symbol = " "
+
+[nix_shell]
+symbol = " "
+
+[package]
+symbol = " "
+disabled = true
+
+[perl]
+symbol = " "
+
+[php]
+symbol = " "
+
+[python]
+symbol = " "
+
+[ruby]
+symbol = " "
+
+[rust]
+symbol = " "
+
+[scala]
+symbol = " "
+
+[shlvl]
+symbol = " "
+
+[swift]
+symbol = "ﯣ "
+

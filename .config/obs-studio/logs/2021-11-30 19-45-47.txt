@@ -1,0 +1,216 @@
+19:45:47.282: CPU Name: Intel(R) Core(TM) i7-10510U CPU @ 1.80GHz
+19:45:47.282: CPU Speed: 2300.000MHz
+19:45:47.282: Physical Cores: 4, Logical Cores: 8
+19:45:47.282: Physical Memory: 15745MB Total, 11439MB Free
+19:45:47.282: Kernel Version: Linux 5.15.5-arch1-1
+19:45:47.282: Distribution: 'EndeavourOS' Unknown
+19:45:47.282: Session Type: x11
+19:45:47.282: Window System: X11.0, Vendor: The X.Org Foundation, Version: 1.21.1
+19:45:47.283: Portable mode: false
+19:45:47.355: OBS 27.1.3-1 (linux)
+19:45:47.355: ---------------------------------
+19:45:47.355: ---------------------------------
+19:45:47.355: audio settings reset:
+19:45:47.355: 	samples per sec: 48000
+19:45:47.355: 	speakers:        2
+19:45:47.358: ---------------------------------
+19:45:47.358: Initializing OpenGL...
+19:45:47.454: Loading up OpenGL on adapter Intel Mesa Intel(R) UHD Graphics (CML GT2)
+19:45:47.454: OpenGL loaded successfully, version 4.6 (Core Profile) Mesa 21.2.5, shading language 4.60
+19:45:47.524: ---------------------------------
+19:45:47.524: video settings reset:
+19:45:47.524: 	base resolution:   1920x1080
+19:45:47.524: 	output resolution: 1920x1080
+19:45:47.524: 	downscale filter:  Bicubic
+19:45:47.524: 	fps:               60/1
+19:45:47.524: 	format:            NV12
+19:45:47.524: 	YUV mode:          709/Partial
+19:45:47.524: NV12 texture support not available
+19:45:47.533: Audio monitoring device:
+19:45:47.533: 	name: Default
+19:45:47.533: 	id: default
+19:45:47.534: ---------------------------------
+19:45:47.536: Failed to load 'en-US' text for module: 'decklink-captions.so'
+19:45:47.537: Failed to load 'en-US' text for module: 'decklink-ouput-ui.so'
+19:45:47.644: Failed to load 'en-GB' text for module: 'linux-alsa.so'
+19:45:47.649: Failed to load 'en-GB' text for module: 'linux-capture.so'
+19:45:47.651: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+19:45:47.651: No blackmagic support
+19:45:47.654: Failed to load 'en-GB' text for module: 'linux-jack.so'
+19:45:47.656: Failed to load 'en-GB' text for module: 'linux-pulseaudio.so'
+19:45:47.667: v4l2loopback not installed, virtual camera disabled
+19:45:47.687: NVENC supported
+19:45:47.687: FFMPEG VAAPI supported
+19:45:47.691: Failed to load 'en-GB' text for module: 'obs-libfdk.so'
+19:45:47.704: Failed to load 'en-GB' text for module: 'obs-x264.so'
+19:45:47.707: Failed to load 'en-GB' text for module: 'rtmp-services.so'
+19:45:47.711: Failed to load 'en-GB' text for module: 'sndio.so'
+19:45:47.714: ---------------------------------
+19:45:47.714:   Loaded Modules:
+19:45:47.714:     text-freetype2.so
+19:45:47.714:     sndio.so
+19:45:47.714:     rtmp-services.so
+19:45:47.714:     obs-x264.so
+19:45:47.714:     obs-transitions.so
+19:45:47.714:     obs-outputs.so
+19:45:47.714:     obs-libfdk.so
+19:45:47.714:     obs-filters.so
+19:45:47.714:     obs-ffmpeg.so
+19:45:47.714:     linux-v4l2.so
+19:45:47.714:     linux-pulseaudio.so
+19:45:47.714:     linux-jack.so
+19:45:47.714:     linux-decklink.so
+19:45:47.714:     linux-capture.so
+19:45:47.714:     linux-alsa.so
+19:45:47.714:     image-source.so
+19:45:47.714:     frontend-tools.so
+19:45:47.714:     decklink-ouput-ui.so
+19:45:47.714:     decklink-captions.so
+19:45:47.714: ---------------------------------
+19:45:47.714: ==== Startup complete ===============================================
+19:45:47.756: All scene data cleared
+19:45:47.756: ------------------------------------------------
+19:45:47.797: pulse-input: Server name: 'pulseaudio 15.0'
+19:45:47.797: pulse-input: Audio format: s16le, 44100 Hz, 2 channels
+19:45:47.798: pulse-input: Started recording from 'alsa_output.pci-0000_00_1f.3.analog-stereo.monitor'
+19:45:47.798: [Loaded global audio device]: 'Desktop Audio'
+19:45:47.798: Switched to scene 'Scene'
+19:45:47.798: ------------------------------------------------
+19:45:47.798: Loaded scenes:
+19:45:47.798: - scene 'Scene':
+19:45:47.798: ------------------------------------------------
+19:45:48.770: [rtmp-services plugin] Successfully updated file 'services.json' (version 187)
+19:45:48.770: [rtmp-services plugin] Successfully updated package (version 187)
+19:45:50.607: adding 42 milliseconds of audio buffering, total audio buffering is now 42 milliseconds (source: Desktop Audio)
+19:45:50.607: 
+19:46:11.435: User added source 'Window Capture (Xcomposite)' (xcomposite_input) to scene 'Scene'
+19:46:11.450: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+19:46:11.450: 	title: nvim
+19:46:11.450: 	class: st
+19:46:11.450: 	Bit depth: 32
+19:46:11.450: 	Found proper GLXFBConfig (in 392): yes
+19:46:11.450: 
+19:46:11.982: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+19:46:11.982: 	title: nvim
+19:46:11.982: 	class: st
+19:46:11.982: 	Bit depth: 32
+19:46:11.982: 	Found proper GLXFBConfig (in 392): yes
+19:46:11.982: 
+19:46:30.592: User Removed source 'Window Capture (Xcomposite)' (xcomposite_input) from scene 'Scene'
+19:46:36.221: xshm-input: Geometry 1920x1080 @ 0,0
+19:46:36.229: User added source 'Screen Capture (XSHM)' (xshm_input) to scene 'Scene'
+19:46:38.833: xshm-input: Geometry 1920x1080 @ 1920,0
+19:46:39.367: xshm-input: Geometry 1920x1080 @ 1920,0
+19:46:40.284: xshm-input: Geometry 1920x1080 @ 0,0
+19:46:40.751: xshm-input: Geometry 1920x1080 @ 0,0
+19:46:50.281: ---------------------------------
+19:46:50.281: [NVENC encoder: 'simple_h264_recording'] settings:
+19:46:50.281: 	rate_control: CQP
+19:46:50.281: 	bitrate:      0
+19:46:50.281: 	cqp:          23
+19:46:50.281: 	keyint:       250
+19:46:50.281: 	preset:       hq
+19:46:50.281: 	profile:      high
+19:46:50.281: 	width:        1920
+19:46:50.281: 	height:       1080
+19:46:50.281: 	2-pass:       false
+19:46:50.281: 	b-frames:     2
+19:46:50.281: 	psycho-aq:    1
+19:46:50.281: 	GPU:          0
+19:46:50.281: 
+19:46:50.542: [NVENC encoder: 'simple_h264_recording'] Failed to open NVENC codec: Generic error in an external library
+19:46:50.543: [NVENC encoder] nvenc_create_internal failed, trying again without Psycho Visual Tuning
+19:46:50.543: ---------------------------------
+19:46:50.543: [NVENC encoder: 'simple_h264_recording'] settings:
+19:46:50.543: 	rate_control: CQP
+19:46:50.543: 	bitrate:      0
+19:46:50.543: 	cqp:          23
+19:46:50.543: 	keyint:       250
+19:46:50.543: 	preset:       hq
+19:46:50.543: 	profile:      high
+19:46:50.543: 	width:        1920
+19:46:50.543: 	height:       1080
+19:46:50.543: 	2-pass:       false
+19:46:50.543: 	b-frames:     2
+19:46:50.543: 	psycho-aq:    0
+19:46:50.543: 	GPU:          0
+19:46:50.543: 
+19:46:50.653: [NVENC encoder: 'simple_h264_recording'] Failed to open NVENC codec: Generic error in an external library
+19:49:02.022: Settings changed (outputs)
+19:49:02.022: ------------------------------------------------
+19:49:04.581: ---------------------------------
+19:49:04.581: [x264 encoder: 'simple_h264_recording'] preset: veryfast
+19:49:04.581: [x264 encoder: 'simple_h264_recording'] profile: high
+19:49:04.589: [x264 encoder: 'simple_h264_recording'] settings:
+19:49:04.589: 	rate_control: CRF
+19:49:04.589: 	bitrate:      0
+19:49:04.589: 	buffer size:  0
+19:49:04.589: 	crf:          23
+19:49:04.589: 	fps_num:      60
+19:49:04.589: 	fps_den:      1
+19:49:04.589: 	width:        1920
+19:49:04.589: 	height:       1080
+19:49:04.589: 	keyint:       250
+19:49:04.589: 
+19:49:04.602: libfdk_aac encoder created
+19:49:04.602: libfdk_aac bitrate: 192, channels: 2
+19:49:04.603: ==== Recording Start ===============================================
+19:49:04.603: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/lmnm/2021-11-30 19-49-04.mkv'...
+19:49:24.444: output simple_file_output paused
+19:49:25.518: output simple_file_output unpaused
+19:49:26.111: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/lmnm/2021-11-30 19-49-04.mkv' stopped
+19:49:26.111: Output 'simple_file_output': stopping
+19:49:26.111: Output 'simple_file_output': Total frames output: 1191
+19:49:26.111: Output 'simple_file_output': Total drawn frames: 921 (1289 attempted)
+19:49:26.111: Output 'simple_file_output': Number of lagged frames due to rendering lag/stalls: 368 (28,5%)
+19:49:26.112: ==== Recording Stop ================================================
+19:49:26.122: Video stopped, number of skipped frames due to encoding lag: 8/1288 (0,6%)
+19:49:26.156: libfdk_aac encoder destroyed
+19:49:40.144: xshm-input: Geometry 1920x1080 @ 0,0
+19:49:58.797: Settings changed (general)
+19:49:58.797: ------------------------------------------------
+19:50:21.673: Settings changed (outputs)
+19:50:21.673: ------------------------------------------------
+19:50:26.540: ---------------------------------
+19:50:26.540: [x264 encoder: 'simple_h264_recording'] preset: veryfast
+19:50:26.540: [x264 encoder: 'simple_h264_recording'] profile: high
+19:50:26.540: [x264 encoder: 'simple_h264_recording'] settings:
+19:50:26.540: 	rate_control: CRF
+19:50:26.540: 	bitrate:      0
+19:50:26.540: 	buffer size:  0
+19:50:26.540: 	crf:          23
+19:50:26.540: 	fps_num:      60
+19:50:26.540: 	fps_den:      1
+19:50:26.540: 	width:        1920
+19:50:26.540: 	height:       1080
+19:50:26.540: 	keyint:       250
+19:50:26.540: 
+19:50:26.545: libfdk_aac encoder created
+19:50:26.545: libfdk_aac bitrate: 192, channels: 2
+19:50:26.546: ==== Recording Start ===============================================
+19:50:26.546: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/lmnm/Videos/2021-11-30 19-50-26.mkv'...
+19:51:13.878: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/lmnm/Videos/2021-11-30 19-50-26.mkv' stopped
+19:51:13.878: Output 'simple_file_output': stopping
+19:51:13.878: Output 'simple_file_output': Total frames output: 2809
+19:51:13.878: Output 'simple_file_output': Total drawn frames: 2036 (2840 attempted)
+19:51:13.878: Output 'simple_file_output': Number of lagged frames due to rendering lag/stalls: 804 (28,3%)
+19:51:13.879: ==== Recording Stop ================================================
+19:51:13.909: libfdk_aac encoder destroyed
+19:51:32.357: ---------------------------------
+19:51:32.357: [x264 encoder: 'simple_h264_recording'] preset: veryfast
+19:51:32.357: [x264 encoder: 'simple_h264_recording'] profile: high
+19:51:32.357: [x264 encoder: 'simple_h264_recording'] settings:
+19:51:32.357: 	rate_control: CRF
+19:51:32.357: 	bitrate:      0
+19:51:32.357: 	buffer size:  0
+19:51:32.357: 	crf:          23
+19:51:32.357: 	fps_num:      60
+19:51:32.357: 	fps_den:      1
+19:51:32.357: 	width:        1920
+19:51:32.357: 	height:       1080
+19:51:32.357: 	keyint:       250
+19:51:32.357: 
+19:51:32.361: libfdk_aac encoder created
+19:51:32.361: libfdk_aac bitrate: 192, channels: 2
+19:51:32.363: ==== Recording Start ===============================================
+19:51:32.363: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/lmnm/Videos/2021-11-30 19-51-32.mkv'...

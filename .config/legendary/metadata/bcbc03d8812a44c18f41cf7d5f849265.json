@@ -1,0 +1,1654 @@
+{
+  "app_name": "bcbc03d8812a44c18f41cf7d5f849265",
+  "app_title": "Cities: Skylines",
+  "asset_infos": {
+    "Windows": {
+      "app_name": "bcbc03d8812a44c18f41cf7d5f849265",
+      "asset_id": "bcbc03d8812a44c18f41cf7d5f849265",
+      "build_version": "1.14.0-f5-2",
+      "catalog_item_id": "ee3c9b2831cf4e8c9a6dc407bcb2890a",
+      "label_name": "Live-Windows",
+      "metadata": {
+        "installationPoolId": "042f5718159b487c8649d5dfcb19dea3"
+      },
+      "namespace": "6009be9994c2409099588cde6f3a5ed0"
+    }
+  },
+  "base_urls": [],
+  "metadata": {
+    "ageGatings": {},
+    "applicationId": "fghi4567FRYA6nWZSLA5b15rjW1VpEUl",
+    "categories": [
+      {
+        "path": "public"
+      },
+      {
+        "path": "games"
+      },
+      {
+        "path": "applications"
+      }
+    ],
+    "creationDate": "2020-10-29T19:25:33.189Z",
+    "customAttributes": {
+      "CanRunOffline": {
+        "type": "STRING",
+        "value": "true"
+      },
+      "CanSkipKoreanIdVerification": {
+        "type": "STRING",
+        "value": "true"
+      },
+      "CloudSaveFolder": {
+        "type": "STRING",
+        "value": "{AppData}/Colossal Order/Cities_Skylines/Saves/"
+      },
+      "FolderName": {
+        "type": "STRING",
+        "value": "CitiesSkylines"
+      },
+      "MaxSizeMB": {
+        "type": "STRING",
+        "value": "50000"
+      },
+      "MonitorPresence": {
+        "type": "STRING",
+        "value": "true"
+      },
+      "PresenceId": {
+        "type": "STRING",
+        "value": "6009be9994c2409099588cde6f3a5ed0"
+      },
+      "RequirementsJson": {
+        "type": "STRING",
+        "value": "[]"
+      },
+      "UseAccessControl": {
+        "type": "STRING",
+        "value": "false"
+      }
+    },
+    "description": "Cities: Skylines",
+    "developer": "Paradox Interactive",
+    "developerId": "o-tjvfg6rejs6h86qa7k9aa64rrgbxxb",
+    "dlcItemList": [
+      {
+        "ageGatings": {},
+        "categories": [
+          {
+            "path": "audience"
+          },
+          {
+            "path": "public"
+          }
+        ],
+        "creationDate": "2020-11-03T23:58:04.066Z",
+        "customAttributes": {
+          "SupportedPlatforms": {
+            "type": "STRING",
+            "value": "Windows"
+          }
+        },
+        "description": "CCP_EuropeanSuburbiaAudience",
+        "developer": "Paradox Interactive",
+        "developerId": "o-tjvfg6rejs6h86qa7k9aa64rrgbxxb",
+        "endOfSupport": false,
+        "entitlementName": "074c6759fc794e268cadd1e661f4303b",
+        "entitlementType": "AUDIENCE",
+        "eulaIds": [
+          "egstore"
+        ],
+        "id": "074c6759fc794e268cadd1e661f4303b",
+        "itemType": "DURABLE",
+        "keyImages": [],
+        "lastModifiedDate": "2020-12-17T15:25:59.927Z",
+        "mainGameItem": {
+          "id": "ee3c9b2831cf4e8c9a6dc407bcb2890a",
+          "namespace": "6009be9994c2409099588cde6f3a5ed0",
+          "unsearchable": false
+        },
+        "namespace": "6009be9994c2409099588cde6f3a5ed0",
+        "requiresSecureAccount": false,
+        "status": "ACTIVE",
+        "title": "CCP_EuropeanSuburbiaAudience",
+        "unsearchable": true
+      },
+      {
+        "ageGatings": {},
+        "categories": [
+          {
+            "path": "audience"
+          },
+          {
+            "path": "public"
+          }
+        ],
+        "creationDate": "2020-11-03T23:19:54.350Z",
+        "customAttributes": {
+          "SupportedPlatforms": {
+            "type": "STRING",
+            "value": "Windows"
+          }
+        },
+        "description": "CyclopesAfterDarkAudience",
+        "developer": "Paradox Interactive",
+        "developerId": "o-tjvfg6rejs6h86qa7k9aa64rrgbxxb",
+        "endOfSupport": false,
+        "entitlementName": "32791089d5f44032bf9c3df5e7702624",
+        "entitlementType": "AUDIENCE",
+        "eulaIds": [
+          "egstore"
+        ],
+        "id": "32791089d5f44032bf9c3df5e7702624",
+        "itemType": "DURABLE",
+        "keyImages": [],
+        "lastModifiedDate": "2020-12-17T15:25:59.930Z",
+        "mainGameItem": {
+          "id": "ee3c9b2831cf4e8c9a6dc407bcb2890a",
+          "namespace": "6009be9994c2409099588cde6f3a5ed0",
+          "unsearchable": false
+        },
+        "namespace": "6009be9994c2409099588cde6f3a5ed0",
+        "requiresSecureAccount": false,
+        "status": "ACTIVE",
+        "title": "CyclopesAfterDarkAudience",
+        "unsearchable": true
+      },
+      {
+        "ageGatings": {},
+        "categories": [
+          {
+            "path": "audience"
+          },
+          {
+            "path": "public"
+          }
+        ],
+        "creationDate": "2020-11-03T23:55:36.476Z",
+        "customAttributes": {
+          "SupportedPlatforms": {
+            "type": "STRING",
+            "value": "Windows"
+          }
+        },
+        "description": "CCP_HighTechBuildingsAudience",
+        "developer": "Paradox Interactive",
+        "developerId": "o-tjvfg6rejs6h86qa7k9aa64rrgbxxb",
+        "endOfSupport": false,
+        "entitlementName": "1c38df1754274f079657008700ec87d7",
+        "entitlementType": "AUDIENCE",
+        "eulaIds": [
+          "egstore"
+        ],
+        "id": "1c38df1754274f079657008700ec87d7",
+        "itemType": "DURABLE",
+        "keyImages": [],
+        "lastModifiedDate": "2020-12-17T15:25:59.930Z",
+        "mainGameItem": {
+          "id": "ee3c9b2831cf4e8c9a6dc407bcb2890a",
+          "namespace": "6009be9994c2409099588cde6f3a5ed0",
+          "unsearchable": false
+        },
+        "namespace": "6009be9994c2409099588cde6f3a5ed0",
+        "requiresSecureAccount": false,
+        "status": "ACTIVE",
+        "title": "CCP_HighTechBuildingsAudience",
+        "unsearchable": true
+      },
+      {
+        "ageGatings": {},
+        "categories": [
+          {
+            "path": "audience"
+          },
+          {
+            "path": "public"
+          }
+        ],
+        "creationDate": "2020-11-03T23:03:19.377Z",
+        "customAttributes": {
+          "SupportedPlatforms": {
+            "type": "STRING",
+            "value": "Windows"
+          }
+        },
+        "description": "CyclopesCarolsCandlesCandyAudience",
+        "developer": "Paradox Interactive",
+        "developerId": "o-tjvfg6rejs6h86qa7k9aa64rrgbxxb",
+        "endOfSupport": false,
+        "entitlementName": "297ef9f3fcef4f2ea0ff67cb59563c9a",
+        "entitlementType": "AUDIENCE",
+        "eulaIds": [
+          "egstore"
+        ],
+        "id": "297ef9f3fcef4f2ea0ff67cb59563c9a",
+        "itemType": "DURABLE",
+        "keyImages": [],
+        "lastModifiedDate": "2020-12-17T15:25:59.930Z",
+        "mainGameItem": {
+          "id": "ee3c9b2831cf4e8c9a6dc407bcb2890a",
+          "namespace": "6009be9994c2409099588cde6f3a5ed0",
+          "unsearchable": false
+        },
+        "namespace": "6009be9994c2409099588cde6f3a5ed0",
+        "requiresSecureAccount": false,
+        "status": "ACTIVE",
+        "title": "CyclopesCarolsCandlesCandyAudience",
+        "unsearchable": true
+      },
+      {
+        "ageGatings": {},
+        "categories": [
+          {
+            "path": "audience"
+          },
+          {
+            "path": "public"
+          }
+        ],
+        "creationDate": "2020-11-03T23:26:54.428Z",
+        "customAttributes": {
+          "SupportedPlatforms": {
+            "type": "STRING",
+            "value": "Windows"
+          }
+        },
+        "description": "CyclopesMassTransitAudience",
+        "developer": "Paradox Interactive",
+        "developerId": "o-tjvfg6rejs6h86qa7k9aa64rrgbxxb",
+        "endOfSupport": false,
+        "entitlementName": "36840639e10b4498b4b7742acbc8bb3f",
+        "entitlementType": "AUDIENCE",
+        "eulaIds": [
+          "egstore"
+        ],
+        "id": "36840639e10b4498b4b7742acbc8bb3f",
+        "itemType": "DURABLE",
+        "keyImages": [],
+        "lastModifiedDate": "2020-12-17T15:25:59.930Z",
+        "mainGameItem": {
+          "id": "ee3c9b2831cf4e8c9a6dc407bcb2890a",
+          "namespace": "6009be9994c2409099588cde6f3a5ed0",
+          "unsearchable": false
+        },
+        "namespace": "6009be9994c2409099588cde6f3a5ed0",
+        "requiresSecureAccount": false,
+        "status": "ACTIVE",
+        "title": "CyclopesMassTransitAudience",
+        "unsearchable": true
+      },
+      {
+        "ageGatings": {},
+        "categories": [
+          {
+            "path": "audience"
+          },
+          {
+            "path": "public"
+          }
+        ],
+        "creationDate": "2020-11-03T23:24:38.153Z",
+        "customAttributes": {
+          "SupportedPlatforms": {
+            "type": "STRING",
+            "value": "Windows"
+          }
+        },
+        "description": "CyclopesPearlsFromTheEastAudience",
+        "developer": "Paradox Interactive",
+        "developerId": "o-tjvfg6rejs6h86qa7k9aa64rrgbxxb",
+        "endOfSupport": false,
+        "entitlementName": "3583b85da8f8422bb19f700ab6b77028",
+        "entitlementType": "AUDIENCE",
+        "eulaIds": [
+          "egstore"
+        ],
+        "id": "3583b85da8f8422bb19f700ab6b77028",
+        "itemType": "DURABLE",
+        "keyImages": [],
+        "lastModifiedDate": "2020-12-17T15:25:59.930Z",
+        "mainGameItem": {
+          "id": "ee3c9b2831cf4e8c9a6dc407bcb2890a",
+          "namespace": "6009be9994c2409099588cde6f3a5ed0",
+          "unsearchable": false
+        },
+        "namespace": "6009be9994c2409099588cde6f3a5ed0",
+        "requiresSecureAccount": false,
+        "status": "ACTIVE",
+        "title": "CyclopesPearlsFromTheEastAudience",
+        "unsearchable": true
+      },
+      {
+        "ageGatings": {},
+        "categories": [
+          {
+            "path": "audience"
+          },
+          {
+            "path": "public"
+          }
+        ],
+        "creationDate": "2020-11-03T23:48:43.881Z",
+        "customAttributes": {
+          "SupportedPlatforms": {
+            "type": "STRING",
+            "value": "Windows"
+          }
+        },
+        "description": "CyclopesConcertsAudience",
+        "developer": "Paradox Interactive",
+        "developerId": "o-tjvfg6rejs6h86qa7k9aa64rrgbxxb",
+        "endOfSupport": false,
+        "entitlementName": "40d8484811504f279453df2f1cb95b69",
+        "entitlementType": "AUDIENCE",
+        "eulaIds": [
+          "egstore"
+        ],
+        "id": "40d8484811504f279453df2f1cb95b69",
+        "itemType": "DURABLE",
+        "keyImages": [],
+        "lastModifiedDate": "2020-12-17T15:25:59.930Z",
+        "mainGameItem": {
+          "id": "ee3c9b2831cf4e8c9a6dc407bcb2890a",
+          "namespace": "6009be9994c2409099588cde6f3a5ed0",
+          "unsearchable": false
+        },
+        "namespace": "6009be9994c2409099588cde6f3a5ed0",
+        "requiresSecureAccount": false,
+        "status": "ACTIVE",
+        "title": "CyclopesConcertsAudience",
+        "unsearchable": true
+      },
+      {
+        "ageGatings": {},
+        "categories": [
+          {
+            "path": "audience"
+          },
+          {
+            "path": "public"
+          }
+        ],
+        "creationDate": "2020-11-03T23:52:25.090Z",
+        "customAttributes": {
+          "SupportedPlatforms": {
+            "type": "STRING",
+            "value": "Windows"
+          }
+        },
+        "description": "CyclopesCampusAudience",
+        "developer": "Paradox Interactive",
+        "developerId": "o-tjvfg6rejs6h86qa7k9aa64rrgbxxb",
+        "endOfSupport": false,
+        "entitlementName": "45a62ea3aad74d12aeaa68b673d1775d",
+        "entitlementType": "AUDIENCE",
+        "eulaIds": [
+          "egstore"
+        ],
+        "id": "45a62ea3aad74d12aeaa68b673d1775d",
+        "itemType": "DURABLE",
+        "keyImages": [],
+        "lastModifiedDate": "2020-12-17T15:25:59.930Z",
+        "mainGameItem": {
+          "id": "ee3c9b2831cf4e8c9a6dc407bcb2890a",
+          "namespace": "6009be9994c2409099588cde6f3a5ed0",
+          "unsearchable": false
+        },
+        "namespace": "6009be9994c2409099588cde6f3a5ed0",
+        "requiresSecureAccount": false,
+        "status": "ACTIVE",
+        "title": "CyclopesCampusAudience",
+        "unsearchable": true
+      },
+      {
+        "ageGatings": {},
+        "categories": [
+          {
+            "path": "audience"
+          },
+          {
+            "path": "public"
+          }
+        ],
+        "creationDate": "2020-11-03T23:51:36.775Z",
+        "customAttributes": {
+          "SupportedPlatforms": {
+            "type": "STRING",
+            "value": "Windows"
+          }
+        },
+        "description": "CyclopesIndustriesAudience",
+        "developer": "Paradox Interactive",
+        "developerId": "o-tjvfg6rejs6h86qa7k9aa64rrgbxxb",
+        "endOfSupport": false,
+        "entitlementName": "56b09a35c6474357997a69ca2f5ac374",
+        "entitlementType": "AUDIENCE",
+        "eulaIds": [
+          "egstore"
+        ],
+        "id": "56b09a35c6474357997a69ca2f5ac374",
+        "itemType": "DURABLE",
+        "keyImages": [],
+        "lastModifiedDate": "2020-12-17T15:25:59.930Z",
+        "mainGameItem": {
+          "id": "ee3c9b2831cf4e8c9a6dc407bcb2890a",
+          "namespace": "6009be9994c2409099588cde6f3a5ed0",
+          "unsearchable": false
+        },
+        "namespace": "6009be9994c2409099588cde6f3a5ed0",
+        "requiresSecureAccount": false,
+        "status": "ACTIVE",
+        "title": "CyclopesIndustriesAudience",
+        "unsearchable": true
+      },
+      {
+        "ageGatings": {},
+        "categories": [
+          {
+            "path": "audience"
+          },
+          {
+            "path": "public"
+          }
+        ],
+        "creationDate": "2020-11-03T23:23:04.337Z",
+        "customAttributes": {
+          "SupportedPlatforms": {
+            "type": "STRING",
+            "value": "Windows"
+          }
+        },
+        "description": "CyclopesNaturalDisastersAudience",
+        "developer": "Paradox Interactive",
+        "developerId": "o-tjvfg6rejs6h86qa7k9aa64rrgbxxb",
+        "endOfSupport": false,
+        "entitlementName": "5e98090df81040b0aaceac7dc67d6732",
+        "entitlementType": "AUDIENCE",
+        "eulaIds": [
+          "egstore"
+        ],
+        "id": "5e98090df81040b0aaceac7dc67d6732",
+        "itemType": "DURABLE",
+        "keyImages": [],
+        "lastModifiedDate": "2020-12-17T15:25:59.930Z",
+        "mainGameItem": {
+          "id": "ee3c9b2831cf4e8c9a6dc407bcb2890a",
+          "namespace": "6009be9994c2409099588cde6f3a5ed0",
+          "unsearchable": false
+        },
+        "namespace": "6009be9994c2409099588cde6f3a5ed0",
+        "requiresSecureAccount": false,
+        "status": "ACTIVE",
+        "title": "CyclopesNaturalDisastersAudience",
+        "unsearchable": true
+      },
+      {
+        "ageGatings": {},
+        "categories": [
+          {
+            "path": "audience"
+          },
+          {
+            "path": "public"
+          }
+        ],
+        "creationDate": "2020-11-03T22:53:15.021Z",
+        "customAttributes": {
+          "SupportedPlatforms": {
+            "type": "STRING",
+            "value": "Windows"
+          }
+        },
+        "description": "CyclopesRelaxationStationAudience",
+        "developer": "Paradox Interactive",
+        "developerId": "o-tjvfg6rejs6h86qa7k9aa64rrgbxxb",
+        "endOfSupport": false,
+        "entitlementName": "58b5cb188884422b8106fdf92cba70e7",
+        "entitlementType": "AUDIENCE",
+        "eulaIds": [
+          "egstore"
+        ],
+        "id": "58b5cb188884422b8106fdf92cba70e7",
+        "itemType": "DURABLE",
+        "keyImages": [],
+        "lastModifiedDate": "2020-12-17T15:25:59.930Z",
+        "mainGameItem": {
+          "id": "ee3c9b2831cf4e8c9a6dc407bcb2890a",
+          "namespace": "6009be9994c2409099588cde6f3a5ed0",
+          "unsearchable": false
+        },
+        "namespace": "6009be9994c2409099588cde6f3a5ed0",
+        "requiresSecureAccount": false,
+        "status": "ACTIVE",
+        "title": "CyclopesRelaxationStationAudience",
+        "unsearchable": true
+      },
+      {
+        "ageGatings": {},
+        "categories": [
+          {
+            "path": "audience"
+          },
+          {
+            "path": "public"
+          }
+        ],
+        "creationDate": "2020-11-03T23:04:36.273Z",
+        "customAttributes": {
+          "SupportedPlatforms": {
+            "type": "STRING",
+            "value": "Windows"
+          }
+        },
+        "description": "CyclopesCountryRoadRadioAudience",
+        "developer": "Paradox Interactive",
+        "developerId": "o-tjvfg6rejs6h86qa7k9aa64rrgbxxb",
+        "endOfSupport": false,
+        "entitlementName": "6eda18d808af4c59a023356b48a4ca21",
+        "entitlementType": "AUDIENCE",
+        "eulaIds": [
+          "egstore"
+        ],
+        "id": "6eda18d808af4c59a023356b48a4ca21",
+        "itemType": "DURABLE",
+        "keyImages": [],
+        "lastModifiedDate": "2020-12-17T15:25:59.930Z",
+        "mainGameItem": {
+          "id": "ee3c9b2831cf4e8c9a6dc407bcb2890a",
+          "namespace": "6009be9994c2409099588cde6f3a5ed0",
+          "unsearchable": false
+        },
+        "namespace": "6009be9994c2409099588cde6f3a5ed0",
+        "requiresSecureAccount": false,
+        "status": "ACTIVE",
+        "title": "CyclopesCountryRoadRadioAudience",
+        "unsearchable": true
+      },
+      {
+        "ageGatings": {},
+        "categories": [
+          {
+            "path": "audience"
+          },
+          {
+            "path": "public"
+          }
+        ],
+        "creationDate": "2020-11-03T23:08:12.123Z",
+        "customAttributes": {
+          "SupportedPlatforms": {
+            "type": "STRING",
+            "value": "Windows"
+          }
+        },
+        "description": "CyclopesSyntheticDawnRadioAudience",
+        "developer": "Paradox Interactive",
+        "developerId": "o-tjvfg6rejs6h86qa7k9aa64rrgbxxb",
+        "endOfSupport": false,
+        "entitlementName": "7c55fd8b267c4adba656f1eba33a3529",
+        "entitlementType": "AUDIENCE",
+        "eulaIds": [
+          "egstore"
+        ],
+        "id": "7c55fd8b267c4adba656f1eba33a3529",
+        "itemType": "DURABLE",
+        "keyImages": [],
+        "lastModifiedDate": "2020-12-17T15:25:59.930Z",
+        "mainGameItem": {
+          "id": "ee3c9b2831cf4e8c9a6dc407bcb2890a",
+          "namespace": "6009be9994c2409099588cde6f3a5ed0",
+          "unsearchable": false
+        },
+        "namespace": "6009be9994c2409099588cde6f3a5ed0",
+        "requiresSecureAccount": false,
+        "status": "ACTIVE",
+        "title": "CyclopesSyntheticDawnRadioAudience",
+        "unsearchable": true
+      },
+      {
+        "ageGatings": {},
+        "categories": [
+          {
+            "path": "audience"
+          },
+          {
+            "path": "public"
+          }
+        ],
+        "creationDate": "2020-11-04T00:01:53.496Z",
+        "customAttributes": {
+          "SupportedPlatforms": {
+            "type": "STRING",
+            "value": "Windows"
+          }
+        },
+        "description": "CCP_ModernJapanAudience",
+        "developer": "Paradox Interactive",
+        "developerId": "o-tjvfg6rejs6h86qa7k9aa64rrgbxxb",
+        "endOfSupport": false,
+        "entitlementName": "850ec2bd0f784fa0aa718866c4c1b6e4",
+        "entitlementType": "AUDIENCE",
+        "eulaIds": [
+          "egstore"
+        ],
+        "id": "850ec2bd0f784fa0aa718866c4c1b6e4",
+        "itemType": "DURABLE",
+        "keyImages": [],
+        "lastModifiedDate": "2020-12-17T15:25:59.930Z",
+        "mainGameItem": {
+          "id": "ee3c9b2831cf4e8c9a6dc407bcb2890a",
+          "namespace": "6009be9994c2409099588cde6f3a5ed0",
+          "unsearchable": false
+        },
+        "namespace": "6009be9994c2409099588cde6f3a5ed0",
+        "requiresSecureAccount": false,
+        "status": "ACTIVE",
+        "title": "CCP_ModernJapanAudience",
+        "unsearchable": true
+      },
+      {
+        "ageGatings": {},
+        "categories": [
+          {
+            "path": "audience"
+          },
+          {
+            "path": "public"
+          }
+        ],
+        "creationDate": "2020-11-03T22:54:49.778Z",
+        "customAttributes": {
+          "SupportedPlatforms": {
+            "type": "STRING",
+            "value": "Windows"
+          }
+        },
+        "description": "CyclopesRockCityRadioAudience",
+        "developer": "Paradox Interactive",
+        "developerId": "o-tjvfg6rejs6h86qa7k9aa64rrgbxxb",
+        "endOfSupport": false,
+        "entitlementName": "767280209dd04165ba89acb27bfe2f73",
+        "entitlementType": "AUDIENCE",
+        "eulaIds": [
+          "egstore"
+        ],
+        "id": "767280209dd04165ba89acb27bfe2f73",
+        "itemType": "DURABLE",
+        "keyImages": [],
+        "lastModifiedDate": "2020-12-17T15:25:59.930Z",
+        "mainGameItem": {
+          "id": "ee3c9b2831cf4e8c9a6dc407bcb2890a",
+          "namespace": "6009be9994c2409099588cde6f3a5ed0",
+          "unsearchable": false
+        },
+        "namespace": "6009be9994c2409099588cde6f3a5ed0",
+        "requiresSecureAccount": false,
+        "status": "ACTIVE",
+        "title": "CyclopesRockCityRadioAudience",
+        "unsearchable": true
+      },
+      {
+        "ageGatings": {},
+        "categories": [
+          {
+            "path": "audience"
+          },
+          {
+            "path": "public"
+          }
+        ],
+        "creationDate": "2020-11-04T00:00:56.446Z",
+        "customAttributes": {
+          "SupportedPlatforms": {
+            "type": "STRING",
+            "value": "Windows"
+          }
+        },
+        "description": "CCP_ModernCityCenterAudience",
+        "developer": "Paradox Interactive",
+        "developerId": "o-tjvfg6rejs6h86qa7k9aa64rrgbxxb",
+        "endOfSupport": false,
+        "entitlementName": "aefade57ec5f425e8de60e53b71ed14c",
+        "entitlementType": "AUDIENCE",
+        "eulaIds": [
+          "egstore"
+        ],
+        "id": "aefade57ec5f425e8de60e53b71ed14c",
+        "itemType": "DURABLE",
+        "keyImages": [],
+        "lastModifiedDate": "2020-12-17T15:25:59.930Z",
+        "mainGameItem": {
+          "id": "ee3c9b2831cf4e8c9a6dc407bcb2890a",
+          "namespace": "6009be9994c2409099588cde6f3a5ed0",
+          "unsearchable": false
+        },
+        "namespace": "6009be9994c2409099588cde6f3a5ed0",
+        "requiresSecureAccount": false,
+        "status": "ACTIVE",
+        "title": "CCP_ModernCityCenterAudience",
+        "unsearchable": true
+      },
+      {
+        "ageGatings": {},
+        "categories": [
+          {
+            "path": "audience"
+          },
+          {
+            "path": "public"
+          }
+        ],
+        "creationDate": "2020-11-03T23:49:47.452Z",
+        "customAttributes": {
+          "SupportedPlatforms": {
+            "type": "STRING",
+            "value": "Windows"
+          }
+        },
+        "description": "CyclopesGreenCitiesAudience",
+        "developer": "Paradox Interactive",
+        "developerId": "o-tjvfg6rejs6h86qa7k9aa64rrgbxxb",
+        "endOfSupport": false,
+        "entitlementName": "98e5578ad14446cc85dba4ac6eb4a409",
+        "entitlementType": "AUDIENCE",
+        "eulaIds": [
+          "egstore"
+        ],
+        "id": "98e5578ad14446cc85dba4ac6eb4a409",
+        "itemType": "DURABLE",
+        "keyImages": [],
+        "lastModifiedDate": "2020-12-17T15:25:59.930Z",
+        "mainGameItem": {
+          "id": "ee3c9b2831cf4e8c9a6dc407bcb2890a",
+          "namespace": "6009be9994c2409099588cde6f3a5ed0",
+          "unsearchable": false
+        },
+        "namespace": "6009be9994c2409099588cde6f3a5ed0",
+        "requiresSecureAccount": false,
+        "status": "ACTIVE",
+        "title": "CyclopesGreenCitiesAudience",
+        "unsearchable": true
+      },
+      {
+        "ageGatings": {},
+        "categories": [
+          {
+            "path": "audience"
+          },
+          {
+            "path": "public"
+          }
+        ],
+        "creationDate": "2020-11-03T23:10:23.179Z",
+        "customAttributes": {
+          "SupportedPlatforms": {
+            "type": "STRING",
+            "value": "Windows"
+          }
+        },
+        "description": "CyclopesDeepFocusRadioAudience",
+        "developer": "Paradox Interactive",
+        "developerId": "o-tjvfg6rejs6h86qa7k9aa64rrgbxxb",
+        "endOfSupport": false,
+        "entitlementName": "b515a66f37ff48a997efd0f0c4cc6de5",
+        "entitlementType": "AUDIENCE",
+        "eulaIds": [
+          "egstore"
+        ],
+        "id": "b515a66f37ff48a997efd0f0c4cc6de5",
+        "itemType": "DURABLE",
+        "keyImages": [],
+        "lastModifiedDate": "2020-12-17T15:25:59.930Z",
+        "mainGameItem": {
+          "id": "ee3c9b2831cf4e8c9a6dc407bcb2890a",
+          "namespace": "6009be9994c2409099588cde6f3a5ed0",
+          "unsearchable": false
+        },
+        "namespace": "6009be9994c2409099588cde6f3a5ed0",
+        "requiresSecureAccount": false,
+        "status": "ACTIVE",
+        "title": "CyclopesDeepFocusRadioAudience",
+        "unsearchable": true
+      },
+      {
+        "ageGatings": {},
+        "categories": [
+          {
+            "path": "audience"
+          },
+          {
+            "path": "public"
+          }
+        ],
+        "creationDate": "2020-11-03T23:21:09.179Z",
+        "customAttributes": {
+          "SupportedPlatforms": {
+            "type": "STRING",
+            "value": "Windows"
+          }
+        },
+        "description": "CyclopesSnowfallAudience",
+        "developer": "Paradox Interactive",
+        "developerId": "o-tjvfg6rejs6h86qa7k9aa64rrgbxxb",
+        "endOfSupport": false,
+        "entitlementName": "c6f96efe7fac4bd5a9e7b63536e1db73",
+        "entitlementType": "AUDIENCE",
+        "eulaIds": [
+          "egstore"
+        ],
+        "id": "c6f96efe7fac4bd5a9e7b63536e1db73",
+        "itemType": "DURABLE",
+        "keyImages": [],
+        "lastModifiedDate": "2020-12-17T15:25:59.930Z",
+        "mainGameItem": {
+          "id": "ee3c9b2831cf4e8c9a6dc407bcb2890a",
+          "namespace": "6009be9994c2409099588cde6f3a5ed0",
+          "unsearchable": false
+        },
+        "namespace": "6009be9994c2409099588cde6f3a5ed0",
+        "requiresSecureAccount": false,
+        "status": "ACTIVE",
+        "title": "CyclopesSnowfallAudience",
+        "unsearchable": true
+      },
+      {
+        "ageGatings": {},
+        "categories": [
+          {
+            "path": "audience"
+          },
+          {
+            "path": "public"
+          }
+        ],
+        "creationDate": "2020-11-03T23:15:19.882Z",
+        "customAttributes": {
+          "SupportedPlatforms": {
+            "type": "STRING",
+            "value": "Windows"
+          }
+        },
+        "description": "CyclopesCoastToCoastRadioAudience",
+        "developer": "Paradox Interactive",
+        "developerId": "o-tjvfg6rejs6h86qa7k9aa64rrgbxxb",
+        "endOfSupport": false,
+        "entitlementName": "b6d46d309eb34cdfbf070bd825f28fa6",
+        "entitlementType": "AUDIENCE",
+        "eulaIds": [
+          "egstore"
+        ],
+        "id": "b6d46d309eb34cdfbf070bd825f28fa6",
+        "itemType": "DURABLE",
+        "keyImages": [],
+        "lastModifiedDate": "2020-12-17T15:25:59.930Z",
+        "mainGameItem": {
+          "id": "ee3c9b2831cf4e8c9a6dc407bcb2890a",
+          "namespace": "6009be9994c2409099588cde6f3a5ed0",
+          "unsearchable": false
+        },
+        "namespace": "6009be9994c2409099588cde6f3a5ed0",
+        "requiresSecureAccount": false,
+        "status": "ACTIVE",
+        "title": "CyclopesCoastToCoastRadioAudience",
+        "unsearchable": true
+      },
+      {
+        "ageGatings": {},
+        "categories": [
+          {
+            "path": "audience"
+          },
+          {
+            "path": "public"
+          }
+        ],
+        "creationDate": "2020-11-03T23:14:21.187Z",
+        "customAttributes": {
+          "SupportedPlatforms": {
+            "type": "STRING",
+            "value": "Windows"
+          }
+        },
+        "description": "CyclopesDowntownRadioAudience",
+        "developer": "Paradox Interactive",
+        "developerId": "o-tjvfg6rejs6h86qa7k9aa64rrgbxxb",
+        "endOfSupport": false,
+        "entitlementName": "c8d77d635e714fd2b1c417df92adbc04",
+        "entitlementType": "AUDIENCE",
+        "eulaIds": [
+          "egstore"
+        ],
+        "id": "c8d77d635e714fd2b1c417df92adbc04",
+        "itemType": "DURABLE",
+        "keyImages": [],
+        "lastModifiedDate": "2020-12-17T15:25:59.930Z",
+        "mainGameItem": {
+          "id": "ee3c9b2831cf4e8c9a6dc407bcb2890a",
+          "namespace": "6009be9994c2409099588cde6f3a5ed0",
+          "unsearchable": false
+        },
+        "namespace": "6009be9994c2409099588cde6f3a5ed0",
+        "requiresSecureAccount": false,
+        "status": "ACTIVE",
+        "title": "CyclopesDowntownRadioAudience",
+        "unsearchable": true
+      },
+      {
+        "ageGatings": {},
+        "categories": [
+          {
+            "path": "audience"
+          },
+          {
+            "path": "public"
+          }
+        ],
+        "creationDate": "2020-11-03T23:09:10.252Z",
+        "customAttributes": {
+          "SupportedPlatforms": {
+            "type": "STRING",
+            "value": "Windows"
+          }
+        },
+        "description": "CyclopesCampusRadioAudience",
+        "developer": "Paradox Interactive",
+        "developerId": "o-tjvfg6rejs6h86qa7k9aa64rrgbxxb",
+        "endOfSupport": false,
+        "entitlementName": "cf80d1429e6d42c697f3b5b6f2d3bdc7",
+        "entitlementType": "AUDIENCE",
+        "eulaIds": [
+          "egstore"
+        ],
+        "id": "cf80d1429e6d42c697f3b5b6f2d3bdc7",
+        "itemType": "DURABLE",
+        "keyImages": [],
+        "lastModifiedDate": "2020-12-17T15:25:59.930Z",
+        "mainGameItem": {
+          "id": "ee3c9b2831cf4e8c9a6dc407bcb2890a",
+          "namespace": "6009be9994c2409099588cde6f3a5ed0",
+          "unsearchable": false
+        },
+        "namespace": "6009be9994c2409099588cde6f3a5ed0",
+        "requiresSecureAccount": false,
+        "status": "ACTIVE",
+        "title": "CyclopesCampusRadioAudience",
+        "unsearchable": true
+      },
+      {
+        "ageGatings": {},
+        "categories": [
+          {
+            "path": "audience"
+          },
+          {
+            "path": "public"
+          }
+        ],
+        "creationDate": "2020-11-03T23:50:47.291Z",
+        "customAttributes": {
+          "SupportedPlatforms": {
+            "type": "STRING",
+            "value": "Windows"
+          }
+        },
+        "description": "CyclopesParklifeAudience",
+        "developer": "Paradox Interactive",
+        "developerId": "o-tjvfg6rejs6h86qa7k9aa64rrgbxxb",
+        "endOfSupport": false,
+        "entitlementName": "c9a5881467e2423bb76596665aac03cd",
+        "entitlementType": "AUDIENCE",
+        "eulaIds": [
+          "egstore"
+        ],
+        "id": "c9a5881467e2423bb76596665aac03cd",
+        "itemType": "DURABLE",
+        "keyImages": [],
+        "lastModifiedDate": "2020-12-17T15:25:59.930Z",
+        "mainGameItem": {
+          "id": "ee3c9b2831cf4e8c9a6dc407bcb2890a",
+          "namespace": "6009be9994c2409099588cde6f3a5ed0",
+          "unsearchable": false
+        },
+        "namespace": "6009be9994c2409099588cde6f3a5ed0",
+        "requiresSecureAccount": false,
+        "status": "ACTIVE",
+        "title": "CyclopesParklifeAudience",
+        "unsearchable": true
+      },
+      {
+        "ageGatings": {},
+        "categories": [
+          {
+            "path": "audience"
+          },
+          {
+            "path": "public"
+          }
+        ],
+        "creationDate": "2020-11-04T00:00:05.833Z",
+        "customAttributes": {
+          "SupportedPlatforms": {
+            "type": "STRING",
+            "value": "Windows"
+          }
+        },
+        "description": "CCP_UniversityCityAudience",
+        "developer": "Paradox Interactive",
+        "developerId": "o-tjvfg6rejs6h86qa7k9aa64rrgbxxb",
+        "endOfSupport": false,
+        "entitlementName": "e0818b8ca8b04581a5aa58e1c9b79deb",
+        "entitlementType": "AUDIENCE",
+        "eulaIds": [
+          "egstore"
+        ],
+        "id": "e0818b8ca8b04581a5aa58e1c9b79deb",
+        "itemType": "DURABLE",
+        "keyImages": [],
+        "lastModifiedDate": "2020-12-17T15:25:59.930Z",
+        "mainGameItem": {
+          "id": "ee3c9b2831cf4e8c9a6dc407bcb2890a",
+          "namespace": "6009be9994c2409099588cde6f3a5ed0",
+          "unsearchable": false
+        },
+        "namespace": "6009be9994c2409099588cde6f3a5ed0",
+        "requiresSecureAccount": false,
+        "status": "ACTIVE",
+        "title": "CCP_UniversityCityAudience",
+        "unsearchable": true
+      },
+      {
+        "ageGatings": {},
+        "categories": [
+          {
+            "path": "audience"
+          },
+          {
+            "path": "public"
+          }
+        ],
+        "creationDate": "2020-11-03T23:54:07.020Z",
+        "customAttributes": {
+          "SupportedPlatforms": {
+            "type": "STRING",
+            "value": "Windows"
+          }
+        },
+        "description": "CCP_ArtDecoAudience",
+        "developer": "Paradox Interactive",
+        "developerId": "o-tjvfg6rejs6h86qa7k9aa64rrgbxxb",
+        "endOfSupport": false,
+        "entitlementName": "ea5275812a764b5496edc10bf915b5cd",
+        "entitlementType": "AUDIENCE",
+        "eulaIds": [
+          "egstore"
+        ],
+        "id": "ea5275812a764b5496edc10bf915b5cd",
+        "itemType": "DURABLE",
+        "keyImages": [],
+        "lastModifiedDate": "2020-12-17T15:25:59.930Z",
+        "mainGameItem": {
+          "id": "ee3c9b2831cf4e8c9a6dc407bcb2890a",
+          "namespace": "6009be9994c2409099588cde6f3a5ed0",
+          "unsearchable": false
+        },
+        "namespace": "6009be9994c2409099588cde6f3a5ed0",
+        "requiresSecureAccount": false,
+        "status": "ACTIVE",
+        "title": "CCP_ArtDecoAudience",
+        "unsearchable": true
+      },
+      {
+        "ageGatings": {},
+        "categories": [
+          {
+            "path": "audience"
+          },
+          {
+            "path": "public"
+          }
+        ],
+        "creationDate": "2020-11-03T23:22:07.570Z",
+        "customAttributes": {
+          "SupportedPlatforms": {
+            "type": "STRING",
+            "value": "Windows"
+          }
+        },
+        "description": "CyclopesMatchDayAudience",
+        "developer": "Paradox Interactive",
+        "developerId": "o-tjvfg6rejs6h86qa7k9aa64rrgbxxb",
+        "endOfSupport": false,
+        "entitlementName": "ede82c7067dd4a99b57c0e913b56bce7",
+        "entitlementType": "AUDIENCE",
+        "eulaIds": [
+          "egstore"
+        ],
+        "id": "ede82c7067dd4a99b57c0e913b56bce7",
+        "itemType": "DURABLE",
+        "keyImages": [],
+        "lastModifiedDate": "2020-12-17T15:25:59.930Z",
+        "mainGameItem": {
+          "id": "ee3c9b2831cf4e8c9a6dc407bcb2890a",
+          "namespace": "6009be9994c2409099588cde6f3a5ed0",
+          "unsearchable": false
+        },
+        "namespace": "6009be9994c2409099588cde6f3a5ed0",
+        "requiresSecureAccount": false,
+        "status": "ACTIVE",
+        "title": "CyclopesMatchDayAudience",
+        "unsearchable": true
+      },
+      {
+        "ageGatings": {},
+        "categories": [
+          {
+            "path": "audience"
+          },
+          {
+            "path": "public"
+          }
+        ],
+        "creationDate": "2020-11-03T23:02:04.000Z",
+        "customAttributes": {
+          "SupportedPlatforms": {
+            "type": "STRING",
+            "value": "Windows"
+          }
+        },
+        "description": "CyclopesAllThatJazzAudience",
+        "developer": "Paradox Interactive",
+        "developerId": "o-tjvfg6rejs6h86qa7k9aa64rrgbxxb",
+        "endOfSupport": false,
+        "entitlementName": "f47d8d7190ca4434a4d0118dfd990810",
+        "entitlementType": "AUDIENCE",
+        "eulaIds": [
+          "egstore"
+        ],
+        "id": "f47d8d7190ca4434a4d0118dfd990810",
+        "itemType": "DURABLE",
+        "keyImages": [],
+        "lastModifiedDate": "2020-12-17T15:25:59.930Z",
+        "mainGameItem": {
+          "id": "ee3c9b2831cf4e8c9a6dc407bcb2890a",
+          "namespace": "6009be9994c2409099588cde6f3a5ed0",
+          "unsearchable": false
+        },
+        "namespace": "6009be9994c2409099588cde6f3a5ed0",
+        "requiresSecureAccount": false,
+        "status": "ACTIVE",
+        "title": "CyclopesAllThatJazzAudience",
+        "unsearchable": true
+      },
+      {
+        "ageGatings": {},
+        "categories": [
+          {
+            "path": "audience"
+          },
+          {
+            "path": "public"
+          }
+        ],
+        "creationDate": "2020-11-03T23:53:14.305Z",
+        "customAttributes": {
+          "SupportedPlatforms": {
+            "type": "STRING",
+            "value": "Windows"
+          }
+        },
+        "description": "CyclopesSunsetHarborAudience",
+        "developer": "Paradox Interactive",
+        "developerId": "o-tjvfg6rejs6h86qa7k9aa64rrgbxxb",
+        "endOfSupport": false,
+        "entitlementName": "f4c6e12413624702ae5761d630a10e5b",
+        "entitlementType": "AUDIENCE",
+        "eulaIds": [
+          "egstore"
+        ],
+        "id": "f4c6e12413624702ae5761d630a10e5b",
+        "itemType": "DURABLE",
+        "keyImages": [],
+        "lastModifiedDate": "2020-12-17T15:25:59.930Z",
+        "mainGameItem": {
+          "id": "ee3c9b2831cf4e8c9a6dc407bcb2890a",
+          "namespace": "6009be9994c2409099588cde6f3a5ed0",
+          "unsearchable": false
+        },
+        "namespace": "6009be9994c2409099588cde6f3a5ed0",
+        "requiresSecureAccount": false,
+        "status": "ACTIVE",
+        "title": "CyclopesSunsetHarborAudience",
+        "unsearchable": true
+      },
+      {
+        "ageGatings": {},
+        "categories": [
+          {
+            "path": "audience"
+          },
+          {
+            "path": "public"
+          }
+        ],
+        "creationDate": "2021-02-17T15:19:12.683Z",
+        "customAttributes": {
+          "SupportedPlatforms": {
+            "type": "STRING",
+            "value": "Windows"
+          }
+        },
+        "description": "CCP1_TrainStationsAudience",
+        "developer": "Paradox Interactive",
+        "developerId": "o-tjvfg6rejs6h86qa7k9aa64rrgbxxb",
+        "endOfSupport": false,
+        "entitlementName": "ca5611ddcb274ac5aafdc93bf3eabfa4",
+        "entitlementType": "AUDIENCE",
+        "eulaIds": [
+          "egstore"
+        ],
+        "id": "ca5611ddcb274ac5aafdc93bf3eabfa4",
+        "itemType": "DURABLE",
+        "keyImages": [],
+        "lastModifiedDate": "2021-05-21T18:05:29.222Z",
+        "mainGameItem": {
+          "id": "ee3c9b2831cf4e8c9a6dc407bcb2890a",
+          "namespace": "6009be9994c2409099588cde6f3a5ed0",
+          "unsearchable": false
+        },
+        "namespace": "6009be9994c2409099588cde6f3a5ed0",
+        "requiresSecureAccount": false,
+        "status": "ACTIVE",
+        "title": "CCP1_TrainStationsAudience",
+        "unsearchable": true
+      },
+      {
+        "ageGatings": {},
+        "categories": [
+          {
+            "path": "audience"
+          },
+          {
+            "path": "public"
+          }
+        ],
+        "creationDate": "2021-02-17T15:30:06.005Z",
+        "customAttributes": {
+          "SupportedPlatforms": {
+            "type": "STRING",
+            "value": "Windows"
+          }
+        },
+        "description": "CCP2_WaterfrontAudience",
+        "developer": "Paradox Interactive",
+        "developerId": "o-tjvfg6rejs6h86qa7k9aa64rrgbxxb",
+        "endOfSupport": false,
+        "entitlementName": "c2b25eaa0cd54f91b1c8652d79fe21d9",
+        "entitlementType": "AUDIENCE",
+        "eulaIds": [
+          "egstore"
+        ],
+        "id": "c2b25eaa0cd54f91b1c8652d79fe21d9",
+        "itemType": "DURABLE",
+        "keyImages": [],
+        "lastModifiedDate": "2021-05-21T18:05:29.222Z",
+        "mainGameItem": {
+          "id": "ee3c9b2831cf4e8c9a6dc407bcb2890a",
+          "namespace": "6009be9994c2409099588cde6f3a5ed0",
+          "unsearchable": false
+        },
+        "namespace": "6009be9994c2409099588cde6f3a5ed0",
+        "requiresSecureAccount": false,
+        "status": "ACTIVE",
+        "title": "CCP2_WaterfrontAudience",
+        "unsearchable": true
+      },
+      {
+        "ageGatings": {},
+        "categories": [
+          {
+            "path": "audience"
+          },
+          {
+            "path": "public"
+          }
+        ],
+        "creationDate": "2021-02-17T15:32:08.692Z",
+        "customAttributes": {
+          "SupportedPlatforms": {
+            "type": "STRING",
+            "value": "Windows"
+          }
+        },
+        "description": "Radio1_RailHawkAudience",
+        "developer": "Paradox Interactive",
+        "developerId": "o-tjvfg6rejs6h86qa7k9aa64rrgbxxb",
+        "endOfSupport": false,
+        "entitlementName": "2bd9aea706664a24b71a0f4414b66db1",
+        "entitlementType": "AUDIENCE",
+        "eulaIds": [
+          "egstore"
+        ],
+        "id": "2bd9aea706664a24b71a0f4414b66db1",
+        "itemType": "DURABLE",
+        "keyImages": [],
+        "lastModifiedDate": "2021-05-21T18:05:29.222Z",
+        "mainGameItem": {
+          "id": "ee3c9b2831cf4e8c9a6dc407bcb2890a",
+          "namespace": "6009be9994c2409099588cde6f3a5ed0",
+          "unsearchable": false
+        },
+        "namespace": "6009be9994c2409099588cde6f3a5ed0",
+        "requiresSecureAccount": false,
+        "status": "ACTIVE",
+        "title": "Radio1_RailHawkAudience",
+        "unsearchable": true
+      },
+      {
+        "ageGatings": {},
+        "categories": [
+          {
+            "path": "audience"
+          },
+          {
+            "path": "public"
+          }
+        ],
+        "creationDate": "2021-02-17T15:33:43.100Z",
+        "customAttributes": {
+          "SupportedPlatforms": {
+            "type": "STRING",
+            "value": "Windows"
+          }
+        },
+        "description": "Radio2_SunnyBreezeAudience",
+        "developer": "Paradox Interactive",
+        "developerId": "o-tjvfg6rejs6h86qa7k9aa64rrgbxxb",
+        "endOfSupport": false,
+        "entitlementName": "349b7f59d073490e92b03bb49027f30f",
+        "entitlementType": "AUDIENCE",
+        "eulaIds": [
+          "egstore"
+        ],
+        "id": "349b7f59d073490e92b03bb49027f30f",
+        "itemType": "DURABLE",
+        "keyImages": [],
+        "lastModifiedDate": "2021-05-21T18:05:29.222Z",
+        "mainGameItem": {
+          "id": "ee3c9b2831cf4e8c9a6dc407bcb2890a",
+          "namespace": "6009be9994c2409099588cde6f3a5ed0",
+          "unsearchable": false
+        },
+        "namespace": "6009be9994c2409099588cde6f3a5ed0",
+        "requiresSecureAccount": false,
+        "status": "ACTIVE",
+        "title": "Radio2_SunnyBreezeAudience",
+        "unsearchable": true
+      },
+      {
+        "ageGatings": {},
+        "applicationId": "",
+        "categories": [
+          {
+            "path": "audience"
+          },
+          {
+            "path": "public"
+          }
+        ],
+        "creationDate": "2021-10-06T19:16:38.160Z",
+        "customAttributes": {
+          "SupportedPlatforms": {
+            "type": "STRING",
+            "value": "Windows"
+          }
+        },
+        "description": "CyclopesAirportsAudience",
+        "developer": "Paradox Interactive",
+        "developerId": "o-tjvfg6rejs6h86qa7k9aa64rrgbxxb",
+        "endOfSupport": false,
+        "entitlementName": "147e2c24d1464e4e886e079c90e066a0",
+        "entitlementType": "AUDIENCE",
+        "eulaIds": [
+          "egstore"
+        ],
+        "id": "147e2c24d1464e4e886e079c90e066a0",
+        "installModes": [],
+        "itemType": "DURABLE",
+        "keyImages": [],
+        "lastModifiedDate": "2021-12-13T15:16:07.859Z",
+        "mainGameItem": {
+          "id": "ee3c9b2831cf4e8c9a6dc407bcb2890a",
+          "namespace": "6009be9994c2409099588cde6f3a5ed0",
+          "unsearchable": false
+        },
+        "namespace": "6009be9994c2409099588cde6f3a5ed0",
+        "releaseInfo": [],
+        "requiresSecureAccount": false,
+        "status": "ACTIVE",
+        "title": "CyclopesAirportsAudience",
+        "unsearchable": true
+      },
+      {
+        "ageGatings": {},
+        "applicationId": "",
+        "categories": [
+          {
+            "path": "audience"
+          },
+          {
+            "path": "public"
+          }
+        ],
+        "creationDate": "2021-10-06T19:19:26.556Z",
+        "customAttributes": {
+          "SupportedPlatforms": {
+            "type": "STRING",
+            "value": "Windows"
+          }
+        },
+        "description": "CyclopesCalmMindRadioAudience",
+        "developer": "Paradox Interactive",
+        "developerId": "o-tjvfg6rejs6h86qa7k9aa64rrgbxxb",
+        "endOfSupport": false,
+        "entitlementName": "dc8c6d35cb3844e78b9c83a1b37ac0b7",
+        "entitlementType": "AUDIENCE",
+        "eulaIds": [
+          "egstore"
+        ],
+        "id": "dc8c6d35cb3844e78b9c83a1b37ac0b7",
+        "installModes": [],
+        "itemType": "DURABLE",
+        "keyImages": [],
+        "lastModifiedDate": "2022-01-10T14:44:53.554Z",
+        "mainGameItem": {
+          "id": "ee3c9b2831cf4e8c9a6dc407bcb2890a",
+          "namespace": "6009be9994c2409099588cde6f3a5ed0",
+          "unsearchable": false
+        },
+        "namespace": "6009be9994c2409099588cde6f3a5ed0",
+        "releaseInfo": [],
+        "requiresSecureAccount": false,
+        "status": "ACTIVE",
+        "title": "CyclopesCalmMindRadioAudience",
+        "unsearchable": true
+      },
+      {
+        "ageGatings": {},
+        "applicationId": "",
+        "categories": [
+          {
+            "path": "audience"
+          },
+          {
+            "path": "public"
+          }
+        ],
+        "creationDate": "2021-10-06T19:20:27.590Z",
+        "customAttributes": {
+          "SupportedPlatforms": {
+            "type": "STRING",
+            "value": "Windows"
+          }
+        },
+        "description": "CyclopesOnAirRadioAudience",
+        "developer": "Paradox Interactive",
+        "developerId": "o-tjvfg6rejs6h86qa7k9aa64rrgbxxb",
+        "endOfSupport": false,
+        "entitlementName": "2af21efd1c084bda89f575a749053320",
+        "entitlementType": "AUDIENCE",
+        "eulaIds": [
+          "egstore"
+        ],
+        "id": "2af21efd1c084bda89f575a749053320",
+        "installModes": [],
+        "itemType": "DURABLE",
+        "keyImages": [],
+        "lastModifiedDate": "2022-01-10T14:44:53.554Z",
+        "mainGameItem": {
+          "id": "ee3c9b2831cf4e8c9a6dc407bcb2890a",
+          "namespace": "6009be9994c2409099588cde6f3a5ed0",
+          "unsearchable": false
+        },
+        "namespace": "6009be9994c2409099588cde6f3a5ed0",
+        "releaseInfo": [],
+        "requiresSecureAccount": false,
+        "status": "ACTIVE",
+        "title": "CyclopesOnAirRadioAudience",
+        "unsearchable": true
+      },
+      {
+        "ageGatings": {},
+        "applicationId": "",
+        "categories": [
+          {
+            "path": "audience"
+          },
+          {
+            "path": "public"
+          }
+        ],
+        "creationDate": "2021-10-06T19:22:05.353Z",
+        "customAttributes": {
+          "SupportedPlatforms": {
+            "type": "STRING",
+            "value": "Windows"
+          }
+        },
+        "description": "CCP_VehiclesOfTheWorldAudience",
+        "developer": "Paradox Interactive",
+        "developerId": "o-tjvfg6rejs6h86qa7k9aa64rrgbxxb",
+        "endOfSupport": false,
+        "entitlementName": "3b6f54481d9848fbbf78d22bb9578d72",
+        "entitlementType": "AUDIENCE",
+        "eulaIds": [
+          "egstore"
+        ],
+        "id": "3b6f54481d9848fbbf78d22bb9578d72",
+        "installModes": [],
+        "itemType": "DURABLE",
+        "keyImages": [],
+        "lastModifiedDate": "2022-01-10T14:44:53.554Z",
+        "mainGameItem": {
+          "id": "ee3c9b2831cf4e8c9a6dc407bcb2890a",
+          "namespace": "6009be9994c2409099588cde6f3a5ed0",
+          "unsearchable": false
+        },
+        "namespace": "6009be9994c2409099588cde6f3a5ed0",
+        "releaseInfo": [],
+        "requiresSecureAccount": false,
+        "status": "ACTIVE",
+        "title": "CCP_VehiclesOfTheWorldAudience",
+        "unsearchable": true
+      },
+      {
+        "ageGatings": {},
+        "applicationId": "",
+        "categories": [
+          {
+            "path": "audience"
+          },
+          {
+            "path": "public"
+          }
+        ],
+        "creationDate": "2021-10-06T19:22:55.445Z",
+        "customAttributes": {
+          "SupportedPlatforms": {
+            "type": "STRING",
+            "value": "Windows"
+          }
+        },
+        "description": "CCP_MapPackAudience",
+        "developer": "Paradox Interactive",
+        "developerId": "o-tjvfg6rejs6h86qa7k9aa64rrgbxxb",
+        "endOfSupport": false,
+        "entitlementName": "1104b06cc46744888e76129ac657e443",
+        "entitlementType": "AUDIENCE",
+        "eulaIds": [
+          "egstore"
+        ],
+        "id": "1104b06cc46744888e76129ac657e443",
+        "installModes": [],
+        "itemType": "DURABLE",
+        "keyImages": [],
+        "lastModifiedDate": "2022-01-10T14:44:53.554Z",
+        "mainGameItem": {
+          "id": "ee3c9b2831cf4e8c9a6dc407bcb2890a",
+          "namespace": "6009be9994c2409099588cde6f3a5ed0",
+          "unsearchable": false
+        },
+        "namespace": "6009be9994c2409099588cde6f3a5ed0",
+        "releaseInfo": [],
+        "requiresSecureAccount": false,
+        "status": "ACTIVE",
+        "title": "CCP_MapPackAudience",
+        "unsearchable": true
+      }
+    ],
+    "endOfSupport": false,
+    "entitlementName": "ee3c9b2831cf4e8c9a6dc407bcb2890a",
+    "entitlementType": "EXECUTABLE",
+    "eulaIds": [
+      "egstore"
+    ],
+    "id": "ee3c9b2831cf4e8c9a6dc407bcb2890a",
+    "installModes": [],
+    "itemType": "DURABLE",
+    "keyImages": [
+      {
+        "height": 1600,
+        "md5": "753257537706de74735d2bc3eb656b67",
+        "size": 1008041,
+        "type": "DieselGameBoxTall",
+        "uploadedDate": "2020-12-02T07:54:17.379Z",
+        "url": "https://cdn1.epicgames.com/6009be9994c2409099588cde6f3a5ed0/item/EGS_CitiesSkylines_ColossalOrder_S2-1200x1600-753257537706de74735d2bc3eb656b67.jpg",
+        "width": 1200
+      },
+      {
+        "height": 1440,
+        "md5": "14df106873c918591e49bd9604841e83",
+        "size": 1006089,
+        "type": "DieselGameBox",
+        "uploadedDate": "2020-12-02T07:54:34.149Z",
+        "url": "https://cdn1.epicgames.com/6009be9994c2409099588cde6f3a5ed0/item/EGS_CitiesSkylines_ColossalOrder_S3-2560x1440-14df106873c918591e49bd9604841e83.jpg",
+        "width": 2560
+      }
+    ],
+    "lastModifiedDate": "2021-11-01T14:24:47.181Z",
+    "namespace": "6009be9994c2409099588cde6f3a5ed0",
+    "releaseInfo": [
+      {
+        "appId": "bcbc03d8812a44c18f41cf7d5f849265",
+        "dateAdded": "2020-11-03T00:00:00.000Z",
+        "id": "01b27c353f5843ad830633032b7bb2c6",
+        "platform": [
+          "Windows"
+        ]
+      }
+    ],
+    "requiresSecureAccount": false,
+    "status": "ACTIVE",
+    "title": "Cities: Skylines",
+    "unsearchable": true
+  }
+}

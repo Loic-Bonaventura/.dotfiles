@@ -1,0 +1,22 @@
+<p><p>KDE Plasma is a pretty frelling great desktop environment - but couldn't it be better? The KDE team <a href="https://pointieststick.com/2022/01/18/the-15-minute-bug-initiative/" target="_blank">have begun</a> the previously announced 15-Minute Bug Initiative.</p>
+
+<p>The idea is to clean up issues in Plasma that affect the user experience within the first 15 minutes of booting. Encountering bugs quickly will put people off and gives a bad impression of not just Plasma, but of Linux as a whole. So this is their time to shine, especially with the Steam Deck coming that uses Plasma for the normal desktop mode.</p>
+
+<p>It's up to the KDE team on exactly what they will include in the list, and some may take quite a while to actually solve so they might not fix them all even in the space of a year. What will absolutely get included in the list? Developer Nate Graham outlined these points as a start (but others are considered too of course):</p>
+
+<blockquote>
+<ol>
+	<li>Affects the default setup</li>
+	<li>100% reproducible</li>
+	<li>Something basic doesn’t work (e.g. a button doesn’t do anything when clicked)</li>
+	<li>Something basic looks visually broken (e.g. <a href="https://bugs.kde.org/show_bug.cgi?id=395725" target="_blank">“korners”</a> bug)</li>
+	<li>Causes you to get locked you out of your system</li>
+	<li>Causes a full session crash</li>
+	<li>Requires a reboot or terminal commands to fix</li>
+	<li>There’s no workaround</li>
+	<li>It’s a recent regression</li>
+	<li>The bug report has more than 5 duplicates</li>
+</ol>
+</blockquote>
+
+<p>You can see the current list of <a href="https://bugs.kde.org/buglist.cgi?bug_severity=critical&bug_severity=grave&bug_severity=major&bug_severity=crash&bug_severity=normal&bug_severity=minor&bug_severity=task&bug_status=UNCONFIRMED&bug_status=CONFIRMED&bug_status=ASSIGNED&bug_status=REOPENED&known_name=VHI-priority%20Plasma%20bugs&list_id=1948787&order=changeddate%20DESC%2Cbug_severity%2Cbug_status%2Cpriority%2Cassigned_to%2Cbug_id&priority=VHI&product=Bluedevil&product=Breeze&product=Discover&product=drkonqi&product=frameworks-kirigami&product=frameworks-plasma&product=frameworks-qqc2-desktop-style&product=kactivitymanagerd&product=kde-gtk-config&product=kdeplasma-addons&product=khelpcenter&product=kinfocenter&product=klipper&product=kmenuedit&product=krunner&product=KScreen&product=kscreenlocker&product=ksmserver&product=ksysguard&product=KSystemLog&product=kwin&product=Plasma%20SDK&product=Plasma%20Vault&product=Plasma%20Workspace%20Wallpapers&product=plasma-integration&product=plasma-nm&product=plasma-pa&product=plasma-simplemenu&product=plasmashell&product=policykit-kde-agent-1&product=Powerdevil&product=print-manager&product=printer-applet&product=pulseaudio-qt&product=systemsettings&product=Touchpad-KCM&product=user-manager&product=xdg-desktop-portal-kde&query_based_on=VHI-priority%20Plasma%20bugs&query_format=advanced" target="_blank">bugs tagged here</a>. There's a few really problematic looking issues there like their application menu Kickoff, which sometimes at random <a href="https://bugs.kde.org/show_bug.cgi?id=447962" target="_blank">loses the hotkey</a> to open it. A bug I encountered only yesterday and it is thoroughly annoying.</p><div id="ryh2wo1DLE78A15">Article from <a href="https://www.gamingonlinux.com/">GamingOnLinux.com</a> taken from the RSS feed.</div></p>

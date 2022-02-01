@@ -1,0 +1,19 @@
+<p><p>Today is the release of the Vulkan API 1.3 specification update and The Khronos Group has put up a <a href="https://www.khronos.org/news/press/vulkan-reduces-fragmentation-and-provides-roadmap-visibility-for-developers" target="_blank">press release</a> going over the changes. A vital API for the future of Linux gaming and the Steam Deck of course, with <a href="http://steamproton.com" target="_blank">Steam Play Proton</a> using Vulkan for the translation from Direct 3D for DXVK and VKD3D-Proton.</p>
+
+<p>At a glance:</p>
+
+<blockquote>
+<ul>
+	<li>The <a href="https://khr.io/vulkan13spec" target="_blank">Vulkan® 1.3 specification</a> was released today, incorporating and mandating proven, developer-requested extensions to make that functionality consistently available across all supported platforms.</li>
+	<li>The Vulkan Working Group is developing a public roadmap to provide guidance on when and where more advanced Vulkan functionality will be supported. The Vulkan Roadmap 2022 milestone for mid-to-high-end hardware defines features beyond Vulkan 1.3 that will be available starting this year.</li>
+	<li>Vulkan profiles will be introduced, with tooling, in the February 2022 Vulkan 1.3 SDK to precisely specify, manage and use sets of API capabilities. Profiles will be used to communicate functionality requirements for roadmaps, markets, platforms, and hardware and software developers.</li>
+</ul>
+</blockquote>
+
+<p>Vulkan 1.3 includes a number of extensions into the main core of Vulkan like dynamic rendering, an improved synchronization API and various other features. Khronos mentioned that no features added in 1.3 are optional to ensure consistency across the industry.</p>
+
+<p>“In this new phase of Vulkan's evolution, the Vulkan Working Group is taking significant steps to reduce fragmentation across the ecosystem and increase Vulkan’s value to the industry as a reliable cross-platform GPU API. We continue to expose new hardware features as extensions while improving the Vulkan API with new core versions that are portable to a wide range of devices. And now with the Vulkan Roadmap, we are committing to enhanced transparency and communication to forge industry consensus on baseline functionality Profiles that best serve Vulkan’s key markets,” said Tom Olson, Vulkan Working Group Chair and Distinguished Engineer at Arm.</p>
+
+<p>Vulkan continues to see industry-wide support from AMD, NVIDIA, Arm, Google and more companies.</p>
+
+<p>On the driver side things are looking to be in pretty good shape. NVIDIA has release their new <a href="https://developer.nvidia.com/vulkan-driver" target="_blank">Vulkan Beta Driver</a> version 470.62.22 which includes a "Fully conformant Vulkan 1.3 implementation".  On the open source Mesa side there's merge requests up for <a href="https://gitlab.freedesktop.org/mesa/mesa/-/merge_requests/14706" target="_blank">Intel ANV</a> and <a href="https://gitlab.freedesktop.org/mesa/mesa/-/merge_requests/14707" target="_blank">AMD RADV</a>. NVIDIA also have their <a href="https://developer.nvidia.com/blog/vulkan-1-3-broadens-cross-platform-functionality-with-developer-requested-features/" target="_blank">own blog post</a> going over some details.</p><div id="5N5Gd99dliGznSh">Article from <a href="https://www.gamingonlinux.com/">GamingOnLinux.com</a> taken from the RSS feed.</div></p>

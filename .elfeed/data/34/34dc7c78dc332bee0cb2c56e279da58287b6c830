@@ -1,0 +1,1 @@
+Telnet can perform a few things that can be very helpful for Linux network administrators, like testing the open port over the remote system for troubleshooting, which is not possible in SSH protocol.

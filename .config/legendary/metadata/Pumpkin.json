@@ -1,0 +1,116 @@
+{
+  "app_name": "Pumpkin",
+  "app_title": "Last Day of June",
+  "asset_infos": {
+    "Windows": {
+      "app_name": "Pumpkin",
+      "asset_id": "Pumpkin",
+      "build_version": "1.0",
+      "catalog_item_id": "dcd71df3967d43928745f8fd8cf29617",
+      "label_name": "Live-Windows",
+      "metadata": {},
+      "namespace": "4fd85a772cd5471aa5e38efcaa0d6f24"
+    }
+  },
+  "base_urls": [],
+  "metadata": {
+    "categories": [
+      {
+        "path": "public"
+      },
+      {
+        "path": "games"
+      },
+      {
+        "path": "applications"
+      }
+    ],
+    "creationDate": "2019-06-03T21:00:17.880Z",
+    "customAttributes": {
+      "CanRunOffline": {
+        "type": "STRING",
+        "value": "true"
+      },
+      "CanSkipKoreanIdVerification": {
+        "type": "STRING",
+        "value": "true"
+      },
+      "FolderName": {
+        "type": "STRING",
+        "value": "LastDayOfJune"
+      },
+      "MonitorPresence": {
+        "type": "STRING",
+        "value": "true"
+      },
+      "PresenceId": {
+        "type": "STRING",
+        "value": "4fd85a772cd5471aa5e38efcaa0d6f24"
+      },
+      "RequirementsJson": {
+        "type": "STRING",
+        "value": "{}"
+      },
+      "UseAccessControl": {
+        "type": "STRING",
+        "value": "false"
+      }
+    },
+    "description": "Last Day of June",
+    "developer": "505 Games S.r.l.",
+    "developerId": "o-cul2z53mrw3bxltv63v68rgd4b3w52",
+    "endOfSupport": false,
+    "entitlementName": "dcd71df3967d43928745f8fd8cf29617",
+    "entitlementType": "EXECUTABLE",
+    "eulaIds": [
+      "egstore"
+    ],
+    "id": "dcd71df3967d43928745f8fd8cf29617",
+    "itemType": "DURABLE",
+    "keyImages": [
+      {
+        "height": 1450,
+        "md5": "efdd04f6be56ec18051a832e6caf8812",
+        "size": 183050,
+        "type": "DieselGameBox",
+        "uploadedDate": "2019-06-26T17:35:04.808Z",
+        "url": "https://cdn1.epicgames.com/4fd85a772cd5471aa5e38efcaa0d6f24/item/LDOJ_PrimaryPromo-2580x1450-efdd04f6be56ec18051a832e6caf8812.jpg",
+        "width": 2580
+      },
+      {
+        "height": 967,
+        "md5": "04d99362a1da2b2425bd5d63a63d2f4c",
+        "size": 54058,
+        "type": "DieselGameBoxLogo",
+        "uploadedDate": "2019-06-26T17:35:26.275Z",
+        "url": "https://cdn1.epicgames.com/4fd85a772cd5471aa5e38efcaa0d6f24/item/LDOJ_Artwork_LOGO-1328x967-04d99362a1da2b2425bd5d63a63d2f4c.png",
+        "width": 1328
+      },
+      {
+        "height": 1420,
+        "md5": "a14727dec446440b143e87daf8e96014",
+        "size": 137571,
+        "type": "DieselGameBoxTall",
+        "uploadedDate": "2019-10-22T09:41:44.790Z",
+        "url": "https://cdn1.epicgames.com/4fd85a772cd5471aa5e38efcaa0d6f24/item/LDOJ_PortraitPromo-1280x1420-a14727dec446440b143e87daf8e96014.jpg",
+        "width": 1280
+      }
+    ],
+    "lastModifiedDate": "2019-11-19T17:03:03.118Z",
+    "namespace": "4fd85a772cd5471aa5e38efcaa0d6f24",
+    "releaseInfo": [
+      {
+        "appId": "Pumpkin",
+        "dateAdded": "2019-06-26T00:00:00.000Z",
+        "id": "c597058cea8a4443818e2d78f05a9327",
+        "platform": [
+          "Windows"
+        ]
+      }
+    ],
+    "selfRefundable": true,
+    "status": "ACTIVE",
+    "title": "Last Day of June",
+    "unsearchable": false
+  }
+}

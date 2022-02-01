@@ -1,0 +1,35 @@
+<p><p>The GPD Pocket 3 is a fully-featured modular pocket PC and now you can happily run Linux on it with an <a href="https://ubuntu-mate.org/blog/ubuntu-mate-for-gpd-pocket3/" target="_blank">officially released</a> build of Ubuntu MATE. Something of a tradition for the MATE team who have produced builds for previous versions of the GPD devices.</p>
+
+<p style="text-align:center"><a data-fancybox="images" href="https://uploads.golmedia.net/uploads/articles/article_media/12197930371643014756gol1.jpg" target="_blank"><img src="https://uploads.golmedia.net/uploads/articles/article_media/12197930371643014756gol1.jpg" /></a></p>
+
+<p>Here's some of the work that went into ensuring it works well:</p>
+
+<blockquote>
+<ul>
+	<li>Enable frame buffer and Xorg display rotation.</li>
+	<li><strong>Accelerometer support for automatic screen rotation.</strong>
+	<ul>
+		<li>Also automatically rotates touch screen and stylus (draw and erase)</li>
+	</ul>
+	</li>
+	<li>Enable <strong>fractional scaling by default</strong>
+	<ul>
+		<li>Results in an effective resolution of ~1280x800 to make the display panels easily readable.</li>
+		<li>Simple to toggle on/off via the <em>Display Scaler</em> app if you want to restore full resolution.</li>
+	</ul>
+	</li>
+	<li>Enable audio via the HDaudio legacy driver.</li>
+	<li>Suspend is implemented via <code class="inline-code">s2idle</code>
+	<ul>
+		<li>A temporary workaround until S3 sleep state is supported.</li>
+	</ul>
+	</li>
+	<li>Enable scroll wheel emulation while holding down the centre trackpad button.</li>
+	<li>Enable Tear-Free rendering by default.</li>
+	<li>Enable double size console (tty) font resolution.</li>
+</ul>
+</blockquote>
+
+<p>One current downside is that the fingerprint reader does not work.</p>
+
+<p>Download from the <a href="https://ubuntu-mate.org/download/" target="_blank">Ubuntu MATE website</a>. See more about the device on the <a href="https://gpd.hk/gpdpocket3" target="_blank">GPD website</a>.</p><div id="D3YmafCBZ87IudP">Article from <a href="https://www.gamingonlinux.com/">GamingOnLinux.com</a> taken from the RSS feed.</div></p>

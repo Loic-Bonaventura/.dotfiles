@@ -1,0 +1,1 @@
+In this Linux tip, learn how to use the xargs command. It accepts input that is piped to it and then uses that input as arguments to whatever command you specify.

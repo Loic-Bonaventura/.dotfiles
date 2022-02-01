@@ -1,0 +1,26 @@
+<p><p>Free and open source game dev tech Godot Engine is jumping up a few levels today with the absolutely massive release of Godot Engine 4.0 Alpha 1. This is going to change the game in huge ways.</p>
+
+<p>This version has been in development for multiple years, with an aim to bring Godot closer to the graphical power and standards being set by the bigger lot (Unity / Unreal etc). All work being done has been in addition to the usual updates to the 3.x branch that is still ongoing too. Godot 4 though brings with it massive changes to the very core of Godot.</p>
+
+<p style="text-align:center"><em><a data-fancybox="images" href="https://uploads.golmedia.net/uploads/articles/article_media/5987842931643039925gol1.jpg" target="_blank"><img src="https://uploads.golmedia.net/uploads/articles/article_media/5987842931643039925gol1.jpg" /></a>3D Scene example from Godot 4 with reflections</em></p>
+
+<p>Some of the major additions include:</p>
+
+<ul>
+	<li>Vulkan API support with two backends:
+	<ul>
+		<li>Clustered - for desktop.</li>
+		<li>Vulkan Mobile - speaks for itself, but also supports desktop - meant for simpler games.</li>
+	</ul>
+	</li>
+	<li>Absolutely masses of new graphics features like: specular mapping when using 2D lighting, fully real-time VoxelGI, signed distance field-based global illumination (SDFGI) for open world lighting, volumetric fog with optional GI contribution, new GPU-based lightmapper and the list goes on.</li>
+	<li>Shader compiler rewritten from scratch.</li>
+	<li>Major text rendering upgrades, with right-to-left language support.</li>
+	<li>Overhaul to importing 3D assets, with a big speed bump too.</li>
+	<li>New TileMap and TileSet editors with better usability.</li>
+	<li>Godot Physics system to replace Bullet.</li>
+	<li>Support for multiple windows of the Editor.</li>
+	<li>GDScript was rewritten from scratch with a cleaner approach.</li>
+</ul>
+
+<p>See the full announcement post on the <a href="https://godotengine.org/article/dev-snapshot-godot-4-0-alpha-1" target="_blank">Godot blog</a>. A full list of changes is still being put together that you can see <a href="https://github.com/godotengine/godot/blob/master/CHANGELOG.md#40---tbd" target="_blank">up on GitHub</a> and it's pretty long!</p><div id="O9GlsuPqRzM8Fet">Article from <a href="https://www.gamingonlinux.com/">GamingOnLinux.com</a> taken from the RSS feed.</div></p>

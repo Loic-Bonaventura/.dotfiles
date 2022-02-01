@@ -1,0 +1,9 @@
+<article>
+	<section class="page">
+<p>The <strong>look</strong> command on Linux can be handy for selecting particular lines from text files with sorted contents. Let's look into how it can be used and where you might run into some problems.</p><h2>Case sensitivity</h2>
+<p>If you type a command such as "look unix", you should see this:</p><pre>$ look unix
+UNIX
+Unix
+unix
+</pre>
+<p>Notice that, because no file was specified in the command shown, <strong>look</strong> reverts to using the <strong>words</strong> file on the system (probably <strong>/usr/share/dict/words</strong> or whatever that points to). Also notice that it finds the three lines in the file even though the argument for the command has only lowercase characters. The command is case-insensitive when you don't provide a file name and instead allow it to default to the <strong>words</strong> file.</p><p class="jumpTag"><a href="/article/3647308/using-the-linux-look-command-to-select-lines-from-files.html#jump">To read this article in full, please click here</a></p></section></article>

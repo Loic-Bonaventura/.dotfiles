@@ -1,0 +1,153 @@
+<div><img width="800" height="484" src="https://hackaday.com/wp-content/uploads/2020/05/LinuxFu.jpg?w=800" class="attachment-large size-large wp-post-image" alt="" loading="lazy" style="margin: 0 auto; margin-bottom: 15px;" srcset="https://hackaday.com/wp-content/uploads/2020/05/LinuxFu.jpg 3000w, https://hackaday.com/wp-content/uploads/2020/05/LinuxFu.jpg?resize=250,151 250w, https://hackaday.com/wp-content/uploads/2020/05/LinuxFu.jpg?resize=400,242 400w, https://hackaday.com/wp-content/uploads/2020/05/LinuxFu.jpg?resize=800,484 800w, https://hackaday.com/wp-content/uploads/2020/05/LinuxFu.jpg?resize=1536,929 1536w, https://hackaday.com/wp-content/uploads/2020/05/LinuxFu.jpg?resize=2048,1239 2048w" sizes="(max-width: 800px) 100vw, 800px" data-attachment-id="414051" data-permalink="https://hackaday.com/linuxfu-2/" data-orig-file="https://hackaday.com/wp-content/uploads/2020/05/LinuxFu.jpg" data-orig-size="3000,1815" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="LinuxFu" data-image-description="" data-image-caption="" data-medium-file="https://hackaday.com/wp-content/uploads/2020/05/LinuxFu.jpg?w=400" data-large-file="https://hackaday.com/wp-content/uploads/2020/05/LinuxFu.jpg?w=800" /></div><p>If you are a traditional programmer, using <code>bash</code> for scripting may seem limiting sometimes, but for certain tasks, <code>bash</code> can be very productive. It turns out, some of the limits of <code>bash</code> are really limits of older shells and people code to that to be compatible. Still other perceived issues are because some of the advanced functions in <code>bash</code> are arcane or confusing.</p>
+<p>Strings are a good example. You don&#8217;t think of <code>bash</code> as a string manipulation language, but it has many powerful ways to handle strings. In fact, it may have too many ways, since the functionality winds up in more than one place. Of course, you can also call out to programs, and sometimes it is just easier to make a call to an <code>awk</code> or Python script to do the heavy lifting.</p>
+<p>But let&#8217;s stick with <code>bash</code>-isms for handling strings. Obviously, you can put a string in an environment variable and pull it back out. I am going to assume you know how string interpolation and quoting works. In other words, this should make sense:</p>
+<pre class="brush: bash; title: ; notranslate">
+echo &quot;Your path is $PATH and the current directory is ${PWD}&quot;
+</pre>
+<h2>The Long and the Short</h2>
+<p>Suppose you want to know the length of a string. That&#8217;s a pretty basic string operation. In <code>bash</code>, you can write <code>${#var}</code> to find the length of <code>$var</code>:</p>
+<pre class="brush: bash; title: ; notranslate">
+
+#/bin/bash
+echo -n &quot;Project Name? &quot;
+read PNAME
+if (( ${#PNAME} &gt; 16 ))
+then
+   echo Error: Project name longer than 16 characters
+else
+   echo ${PNAME} it is!
+fi
+
+</pre>
+<p><span id="more-517033"></span></p>
+<p>The &#8220;((&#8221; forms an arithmetic context which is why you can get away with an unquoted greater-than sign here. If you don&#8217;t mind using <code>expr</code> &#8212; which is an external program &#8212; there are at least two more ways to get there:</p>
+<pre class="brush: bash; title: ; notranslate">
+
+echo ${#STR}
+expr length &quot;${STR}&quot;
+expr match &quot;${STR}&quot; '.*'
+
+</pre>
+<p>Of course, if you allow yourself to call outside of <code>bash</code>, you could use <code>awk</code> or anything else to do this, too, but we&#8217;ll stick with <code>expr</code> as it is relatively lightweight.</p>
+<h2>Swiss Army Knife</h2>
+<p>In fact, <code>expr</code> can do a lot of string manipulations in addition to length and match. You can pull a substring from a string using <code>substr</code>. It is often handy to use <code>index</code> to find a particular character in the string first. The <code>expr</code> program uses 1 as the first character of the string. So, for example:</p>
+<pre class="brush: bash; title: ; notranslate">
+
+#/bin/bash
+echo -n &quot;Full path? &quot;
+read FFN
+LAST_SLASH=0
+SLASH=$( expr index &quot;$FFN&quot; / ) # find first slash
+while (( $SLASH != 0 ))
+do
+   let LAST_SLASH=$LAST_SLASH+$SLASH  # point at next slash
+   SLASH=$(expr index &quot;${FFN:$LAST_SLASH}&quot; / )  # look for another
+done
+# now LAST_SLASH points to last slash
+echo -n &quot;Directory: &quot;
+expr substr &quot;$FFN&quot; 1 $LAST_SLASH
+echo -or-
+echo ${FFN:0:$LAST_SLASH}
+# Yes, I know about dirname but this is an example
+
+</pre>
+<p>Enter a full path (like <code>/foo/bar/hackaday</code>) and the script will find the last slash and print the name up to and including the last slash using two different methods. This script makes use of <code>expr</code> but also uses the syntax for <code>bash</code>&#8216;s built in substring extraction which starts at index zero. For example, if the variable FOO contains &#8220;Hackaday&#8221;:</p>
+<ul>
+<li>${FOO} -&gt; Hackaday</li>
+<li>${FOO:1} -&gt; ackaday</li>
+<li>${FOO:5:3} -&gt; day</li>
+</ul>
+<p>The first number is an offset and the second is a length if it is positive. You can also make either of the numbers negative, although you need a space after the colon if the offset is negative. The last character of the string is at index -1, for example. A negative length is shorthand for an absolute position from the end of the string. So:</p>
+<ul>
+<li>${FOO: -3} -&gt; day</li>
+<li>${FOO:1:-4} -&gt; ack</li>
+<li>${FOO: -8:-4} -&gt; Hack</li>
+</ul>
+<p>Of course, either or both numbers could be variables, as you can see in the example.</p>
+<h2>Less is More</h2>
+<p>Sometimes you don&#8217;t want to find something, you just want to get rid of it. <code>bash</code> has lots of ways to remove substrings using fixed strings or glob-based pattern matching. There are four variations. One pair of deletions remove the longest and shortest possible substrings from the front of the string and the other pair does the same thing from the back of the string. Consider this:</p>
+<pre class="brush: bash; title: ; notranslate">
+
+TSTR=my.first.file.txt
+echo ${TSTR%.*} # prints my.first.file
+echo ${TSTR%%.*}  # prints my
+echo ${TSTR#*fi}  # prints rst.file.txt
+echo $TSTR##*fi} # prints le.txt
+
+</pre>
+<h2>Transformation</h2>
+<p>Of course, sometimes you don&#8217;t want to delete, as much as you want to replace some string with another string. You can use a single slash to replace the first instance of a search string or two slashes to replace globally. You can also fail to provide a replacement string and you&#8217;ll get another way to delete parts of strings. One other trick is to add a # or % to anchor the match to the start or end of the string, just like with a deletion.</p>
+<pre class="brush: bash; title: ; notranslate">
+
+TSTR=my.first.file.txt
+echo ${TSTR/fi/Fi}   # my.First.file.txt
+echo ${TSTR//fi/Fi}  # my.First.File.txt
+echo ${TSTR/#*./PREFIX-} # PREFIX-txt  (note: always longest match)
+echo ${TSTR/%.*/.backup}  # my.backup (note: always longest match)
+
+</pre>
+<h2>Miscellaneous</h2>
+<p>Some of the more common ways to manipulate strings in <code>bash</code> have to do with dealing with parameters. Suppose you have a script that expects a variable called <code>OTERM</code> to be set but you want to be sure:</p>
+<pre class="brush: bash; title: ; notranslate">
+
+REALTERM=${OTERM:-vt100}
+
+</pre>
+<p>Now <code>REALTERM</code> will have the value of <code>OTERM</code> or the string &#8220;vt100&#8221; if there was nothing in <code>OTERM</code>. Sometimes you want to set <code>OTERM</code> itself so while you could assign to <code>OTERM</code> instead of <code>REALTERM</code>, there is an easier way. Use := instead of the :- sequence. If you do that, you don&#8217;t necessarily need an assignment at all, although you can use one if you like:</p>
+<pre class="brush: bash; title: ; notranslate">
+
+echo ${OTERM:=vt100}  # now OTERM is vt100 if it was empty before
+
+</pre>
+<p>You can also reverse the sense so that you replace the value only if the main value is not empty, although that&#8217;s not as generally useful:</p>
+<pre class="brush: bash; title: ; notranslate">
+
+echo ${DEBUG:+&quot;Debug mode is ON&quot;}  # reverse -; no assignment
+
+</pre>
+<p>A more drastic measure lets you print an error message to stderr and abort a non-interactive shell:</p>
+<pre class="brush: bash; title: ; notranslate">
+
+REALTERM=${OTERM:?&quot;Error. Please set OTERM before calling this script&quot;}
+
+</pre>
+<h2>Just in Case</h2>
+<p>Converting things to upper or lower case is fairly simple. You can provide a glob pattern that matches a single character. If you omit it, it is the same as ?, which matches any character. You can elect to change all the matching characters or just attempt to match the first character. Here are the obligatory examples:</p>
+<pre class="brush: bash; title: ; notranslate">
+
+NAME=&quot;joe Hackaday&quot;
+
+echo ${NAME^} # prints Joe Hackaday (first match of any character)
+echo ${NAME^^} # prints JOE HACKADAY (all of any character)
+echo ${NAME^^[a]} # prints joe HAckAdAy (all a characters)
+echo ${NAME,,] # prints joe hackaday (all characters)
+echo ${NAME,] # prints joe Hackaday (first character matched and didn't convert)
+NAME=&quot;Joe Hackaday&quot;
+echo ${NAME,,[A-H]} # prints Joe hackaday (apply pattern to all characters and convert A-H to lowercase)
+
+</pre>
+<p>Recent versions of <code>bash</code> can also convert upper and lower case using <code>${VAR@U}</code> and <code>${VAR@L}</code> along with just the first character using <code>@u</code> and <code>@l</code>, but your mileage may vary.</p>
+<h2>Pass the Test</h2>
+<p>You probably realize that when you do a standard test, that actually calls a program:</p>
+<pre class="brush: bash; title: ; notranslate">
+
+if [ $f -eq 0 ]
+then ...
+
+</pre>
+<p>If you do an ls on <code>/usr/bin</code>, you&#8217;ll see an executable actually named &#8220;[&#8221; used as a shorthand for the test program. However, <code>bash</code> has its own test in the form of two brackets:</p>
+<pre class="brush: bash; title: ; notranslate">
+
+if [[ $f == 0 ]]
+then ...
+
+</pre>
+<p>That test built-in can handle regular expressions using =~ so that&#8217;s another option for matching strings:</p>
+<pre class="brush: bash; title: ; notranslate">
+
+if [[ &quot;$NAME&quot; =~ [hH]a.k ]] ...
+
+</pre>
+<h2>Choose Wisely</h2>
+<p>Of course, if you are doing a slew of text processing, maybe you don&#8217;t need to be using <code>bash</code>. Even if you are, don&#8217;t forget you can always leverage other programs like tr, <code>awk</code>, <code>sed</code>, and many others to do things like this. Sure, performance won&#8217;t be as good &#8212; probably &#8212; but if you are worried about performance why are you writing a script?</p>
+<p>Unless you just swear off scripting altogether, it is nice to have some of these tricks in your back pocket. Use them wisely.</p>

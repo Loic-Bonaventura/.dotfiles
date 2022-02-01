@@ -1,0 +1,5 @@
+<article>
+	<section class="page">
+<p>When you type “hash” on a Linux system, you could get one of two very different responses depending on the shell you are using.</p><p>If you are using <strong>bash</strong> or a related shell such as <strong>ksh</strong>, you should see a list of the commands that you have used since your terminal session began, sometimes with a count of how many times each command was used. This can be more useful than using the <strong>history</strong> command if you just want to see your very recent command activity, but the <strong>hash</strong> command is not a single executable. Instead, it relies on your shell.</p><aside class="fakesidebar"><a href="https://www.networkworld.com/article/3505818/how-to-tell-if-youre-using-a-bash-builtin-in-linux.html">How to tell if you're using a bash built-in in Linux</a></aside>
+<h2>hash in bash</h2>
+<p>Here’s an example of the <strong>hash</strong> command run in <strong>bash</strong>:</p><p class="jumpTag"><a href="/article/3648041/hashing-out-the-hash-command-on-linux.html#jump">To read this article in full, please click here</a></p></section></article>

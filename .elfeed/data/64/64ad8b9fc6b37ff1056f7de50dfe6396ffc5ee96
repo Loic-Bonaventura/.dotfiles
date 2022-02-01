@@ -1,0 +1,11 @@
+<p><p>Jason Ekstrand, a name that many big Linux fans will know, who previously worked at Intel until very recently has announced today the move to open source consulting firm Collabora. Writing in <a href="https://www.jlekstrand.net/jason/blog/2022/01/hello-collabora/" target="_blank">a blog post</a>, Ekstrand goes through some fun background on the decision to move and how it happened.</p>
+
+<p>Ekstrand has worked on a lot of different parts of Mesa, the set of open source graphics drivers that powers AMD GPUs, Intel, ARM and more. Thankfully, Mesa work will continue with the new posting at Collabora and with plenty of freedom to choose the work too:</p>
+
+<blockquote>
+<p>So what did Collabora finally offer me that no one else has? Total autonomy. In my new role at Collabora, my mandate consists of two things: invest in and mentor the Collabora 3D graphics team and invest in upstream Linux and open-source graphics however I see fit.</p>
+</blockquote>
+
+<p>Sounds like an offer you can't refuse…</p>
+
+<p>Having someone with so much knowledge of open source graphics drivers continue doing it - awesome. Ekstrand continues to mention their work will likely jump between a bit of everything like Panfrost (ARM Mali GPUs), Ray Tracing for RADV (AMD Vulkan driver), OpenCL upgrades and the list goes on. Collabora is also a Khronos Group member (who oversee OpenGL, Vulkan and many other standards) and so they will continue to be involved there directly too.</p><div id="Zryu7wBY4u6w970">Article from <a href="https://www.gamingonlinux.com/">GamingOnLinux.com</a> taken from the RSS feed.</div></p>

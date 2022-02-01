@@ -1,0 +1,11 @@
+<article>
+	<section class="page">
+<p>There are quite a few ways to search through compressed text files on Linux systems without having to uncompress them first. Depending on the format of the files, you can choose to view entire files, extract specific text, navigate through file contents searching for content of interest, and sometimes even edit content. I</p><p>First, to show you how this works, I compressed the words file on one of my Linux systems (/usr/share/dict/words) using these commands:</p><pre>$ cp /usr/share/dict/words .
+$ 7z a words.7z words
+$ bzip2 -k words
+$ gzip -k words
+$ xz -k words
+$ zip words.zip words</pre>
+<aside class="fakesidebar"><a href="https://www.networkworld.com/article/2757239/how-to--grep-tricks-for-linux-users.html">How to use the grep command on Linux </a></aside>
+<pre> </pre>
+<p>The <strong>-k</strong> options used with the <strong>bzip2</strong>, <strong>gzip</strong>, and <strong>xz</strong> commands kept these commands from removing the original file, which they would by default. The resultant files then looked like this:</p><p class="jumpTag"><a href="/article/3639029/searching-through-compressed-files-on-linux.html#jump">To read this article in full, please click here</a></p></section></article>

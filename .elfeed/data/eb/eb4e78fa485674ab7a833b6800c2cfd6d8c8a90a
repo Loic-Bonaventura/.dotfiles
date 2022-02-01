@@ -1,0 +1,35 @@
+<p><p>Valve has <a href="https://steamcommunity.com/groups/steamworks/announcements/detail/3137321254689909034" target="_blank">announced</a> that developers who use Easy Anti-Cheat for their games now have a much easier setup for Proton and the upcoming Steam Deck.</p>
+
+<p>As we <a href="https://www.gamingonlinux.com/2022/01/easy-anti-cheat-not-as-simple-as-expected-for-proton-and-steam-deck/" target="_blank">wrote about recently</a>, it turned out that the announcement from Epic Games on supporting Easy Anti-Cheat for Proton was not as easy as expected. It required an SDK update for Epic Online Services, something developers noted was not exactly simple.</p>
+
+<p>Thankfully, Valve has been doing more with Epic behind the scenes and the process is now much better, which should hopefully mean more developers will be able to do it. Valve has now expanded the <a href="https://partner.steamgames.com/doc/steamdeck/proton" target="_blank">developer documentation</a> noting how Easy Anti-Cheat can be hooked up with Proton:</p>
+
+<blockquote>
+<ul>
+	<li>Proton supports Easy Anti-Cheat without requiring any recompilation, but it does require you to manually enable support for your build by following these steps in order:
+	<ol>
+		<li>Go into the EAC settings on the EAC partner site and enable Linux support from the dashboard.</li>
+		<li>Once that's done, download the EAC Linux library (<em>easyanticheat_x64.so</em>) for the SDK version integrated with your game, and add it to your depot next to the Windows library (<em>EasyAntiCheat_x64.dll</em>).</li>
+		<li>Lastly, on the Steamworks site, publish a new build of your game containing the new depot contents. (You don't have to make any changes to the game executable, just include the new files in the depot contents.)</li>
+	</ol>
+	</li>
+</ul>
+</blockquote>
+
+<p>Valve states that starting Monday - January 24, they will begin sending out Deck Verified data to developers that use anti-cheat to notify them of the results. Once they get it, developers will have a week to accept it (broken or otherwise) or do the necessary work to get it sorted.</p>
+
+<p>So, if all goes well, we might in the next few weeks see more anti-cheat enabled titles working on Linux with Proton. This would be great for the Steam Deck, since it ships with SteamOS 3 Linux.</p>
+
+<p>Just some of the titles that could benefit include:</p>
+
+<ul>
+	<li>Apex Legends</li>
+	<li>Back 4 Blood</li>
+	<li>Dead By Daylight</li>
+	<li>Fall Guys: Ultimate Knockout</li>
+	<li>Halo: The Master Chief Collection</li>
+	<li>New World</li>
+	<li>Paladins</li>
+	<li>Rust</li>
+	<li>Warhammer: Vermintide 2</li>
+</ul><div id="@OyO2NOJEAw_Bsr">Article from <a href="https://www.gamingonlinux.com/">GamingOnLinux.com</a> taken from the RSS feed.</div></p>

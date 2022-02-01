@@ -1,0 +1,298 @@
+# super as mod key
+set $mod Mod4
+
+# kill i3
+bindsym $mod+Shift+Q exec killall i3
+
+exec_always --no-startup-id $HOME/.config/polybar/launch.sh
+
+workspace_layout default
+
+new_window pixel 2
+new_float none
+
+# Set inner/outer gaps
+gaps inner 10
+gaps outer 10
+smart_gaps on
+smart_borders on
+
+# Use Mouse+$mod to drag floating windows to their wanted position
+floating_modifier $mod
+
+# switch to workspace
+bindsym $mod+1  workspace  $ws1
+bindsym $mod+2  workspace  $ws2
+bindsym $mod+3  workspace  $ws3
+bindsym $mod+4  workspace  $ws4
+bindsym $mod+5  workspace  $ws5
+bindsym $mod+6  workspace  $ws6
+bindsym $mod+7  workspace  $ws7
+bindsym $mod+8  workspace  $ws8
+bindsym $mod+9  workspace  $ws9
+
+# switch to workspace with numpad keys
+bindcode $mod+87 workspace 1
+bindcode $mod+88 workspace 2
+bindcode $mod+89 workspace 3
+bindcode $mod+83 workspace 4
+bindcode $mod+84 workspace 5
+bindcode $mod+85 workspace 6
+bindcode $mod+79 workspace 7
+bindcode $mod+80 workspace 8
+bindcode $mod+81 workspace 9
+
+# switch to workspace with numlock numpad keys
+bindcode $mod+Mod2+87 workspace $ws1
+bindcode $mod+Mod2+88 workspace $ws2
+bindcode $mod+Mod2+89 workspace $ws3
+bindcode $mod+Mod2+83 workspace $ws4
+bindcode $mod+Mod2+84 workspace $ws5
+bindcode $mod+Mod2+85 workspace $ws6
+bindcode $mod+Mod2+79 workspace $ws7
+bindcode $mod+Mod2+80 workspace $ws8
+bindcode $mod+Mod2+81 workspace $ws9
+
+# move focused container to workspace
+bindsym $mod+Shift+1    move container to workspace  $ws1
+bindsym $mod+Shift+2    move container to workspace  $ws2
+bindsym $mod+Shift+3    move container to workspace  $ws3
+bindsym $mod+Shift+4    move container to workspace  $ws4
+bindsym $mod+Shift+5    move container to workspace  $ws5
+bindsym $mod+Shift+6    move container to workspace  $ws6
+bindsym $mod+Shift+7    move container to workspace  $ws7
+bindsym $mod+Shift+8    move container to workspace  $ws8
+bindsym $mod+Shift+9    move container to workspace  $ws9
+
+# move focused container to workspace with numpad keys
+bindcode $mod+Shift+Mod2+87 	move container to workspace  $ws1
+bindcode $mod+Shift+Mod2+88 	move container to workspace  $ws2
+bindcode $mod+Shift+Mod2+89 	move container to workspace  $ws3
+bindcode $mod+Shift+Mod2+83 	move container to workspace  $ws4
+bindcode $mod+Shift+Mod2+84 	move container to workspace  $ws5
+bindcode $mod+Shift+Mod2+85 	move container to workspace  $ws6
+bindcode $mod+Shift+Mod2+79 	move container to workspace  $ws7
+bindcode $mod+Shift+Mod2+80 	move container to workspace  $ws8
+bindcode $mod+Shift+Mod2+81 	move container to workspace  $ws9
+
+# move focused container to workspace with numpad keys
+bindcode $mod+Shift+87 	 move container to workspace  $ws1
+bindcode $mod+Shift+88 	 move container to workspace  $ws2
+bindcode $mod+Shift+89 	 move container to workspace  $ws3
+bindcode $mod+Shift+83 	 move container to workspace  $ws4
+bindcode $mod+Shift+84 	 move container to workspace  $ws5
+bindcode $mod+Shift+85 	 move container to workspace  $ws6
+bindcode $mod+Shift+79 	 move container to workspace  $ws7
+bindcode $mod+Shift+80 	 move container to workspace  $ws8
+bindcode $mod+Shift+81 	 move container to workspace  $ws9
+
+mode "resize" {
+        bindsym h resize shrink width 5 px or 5 ppt
+        bindsym j resize grow height 5 px or 5 ppt
+        bindsym k resize shrink height 5 px or 5 ppt
+        bindsym l resize grow width 5 px or 5 ppt
+# same bindings, but for the arrow keys
+	    bindsym Left resize shrink width 5 px or 5 ppt
+        bindsym Down resize grow height 5 px or 5 ppt
+        bindsym Up resize shrink height 5 px or 5 ppt
+        bindsym Right resize grow width 5 px or 5 ppt
+# back to normal: Enter or Escape
+		bindsym Return mode "default"
+        bindsym Escape mode "default"
+}
+
+bindsym $mod+r mode "resize"
+
+# start a terminal
+bindsym $mod+Return exec st 
+bindsym $mod+Shift+Return exec tabbed -r 2 st -w ''
+
+
+# kill focused window
+bindsym $mod+c kill
+
+# reload the configuration file
+bindsym $mod+Shift+c reload
+
+# restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
+bindsym $mod+Shift+r restart
+
+# change focus
+bindsym $mod+h focus left
+bindsym $mod+j focus down
+bindsym $mod+k focus up
+bindsym $mod+l focus right
+
+# alternatively, you can use the cursor keys:
+bindsym $mod+Left focus left
+bindsym $mod+Down focus down
+bindsym $mod+Up focus up
+bindsym $mod+Right focus right
+
+# move focused window
+bindsym $mod+Shift+h move left
+bindsym $mod+Shift+j move down
+bindsym $mod+Shift+k move up
+bindsym $mod+Shift+l move right
+
+# alternatively, you can use the cursor keys:
+bindsym $mod+Shift+Left move left
+bindsym $mod+Shift+Down move down
+bindsym $mod+Shift+Up move up
+bindsym $mod+Shift+Right move right
+
+# I use vim bindings for splits instead of i3 defaults
+# split in horizontal orientation
+bindsym $mod+v split h
+
+# split in vertical orientation
+bindsym $mod+s split v
+
+# enter fullscreen mode for the focused container
+bindsym $mod+f fullscreen toggle
+
+# I do not use other layouts. Feel free to comment out.
+# bindsym $mod+Shift+s layout stacking
+# bindsym $mod+Shift+t layout toggle split
+
+# toggle tiling / floating
+bindsym $mod+Shift+space floating toggle
+
+# change focus between tiling / floating windows
+bindsym $mod+space focus mode_toggle
+
+# open new empty workspace
+bindsym $mod+Shift+n exec ~/.config/i3/scripts/empty_workspace.sh
+
+## Multimedia Keys
+
+# volume
+bindsym XF86AudioRaiseVolume exec amixer -D pulse sset Master 5%+ && pkill -RTMIN+1 i3blocks
+bindsym XF86AudioLowerVolume exec amixer -D pulse sset Master 5%- && pkill -RTMIN+1 i3blocks
+
+bindsym XF86AudioPlay exec playerctl play
+bindsym XF86AudioPause exec playerctl pause
+bindsym XF86AudioNext exec playerctl next
+bindsym XF86AudioPrev exec playerctl previous
+
+## App shortcuts
+bindsym $mod+w exec /usr/bin/brave
+bindsym $mod+n exec /usr/bin/pcmanfm
+bindsym $mod+p exec /usr/bin/1password
+bindsym $mod+d exec dmenu_run -h 32
+# -show run
+bindsym $mod+o exec /usr/bin/libreoffice
+bindsym $mod+m exec /usr/bin/vlc
+bindsym $mod+x exec /usr/bin/code
+bindsym $mod+q exec /usr/bin/discord
+bindsym $mod+a exec /usr/bin/slack
+bindsym $mod+b exec /usr/bin/google-chrome-stable
+bindsym $mod+Shift+x exec /usr/bin/Oni2 --new-window
+bindsym $mod+Shift+D exec killall spotifyd
+bindsym $mod+Shift+W exec /usr/bin/qutebrowser
+bindsym $mod+Shift+Z exec /opt/WebStorm-212.5080.54/bin/webstorm.sh
+
+#########
+# Emacs #
+#########
+
+exec /usr/bin/emacs --daemon &
+bindsym $mod+e exec emacsclient -c
+bindsym $mod+Control+d exec emacsclient -c -e '(dired "~/")'
+bindsym $mod+Control+m exec emacsclient -c -e '(mu4e)'
+bindsym $mod+Control+t exec emacsclient -c -e '(vterm)'
+
+set $ws1 "1"
+set $ws2 "2"
+set $ws3 "3"
+set $ws4 "4"
+set $ws5 "5"
+set $ws6 "6"
+set $ws7 "7"
+set $ws8 "8"
+set $ws9 "9"
+
+# workspace $ws1 output DP-1
+# workspace $ws2 output DP-1
+# workspace $ws3 output DP-2
+# workspace $ws4 output DP-2
+# workspace $ws5 output DP-1
+
+# bind program to workspace and focus to them on startup:
+# assign [class="alacritty"] $ws1
+# assign [class="(?i)firefox"] $ws2
+# assign [class="Thunar"] $ws3
+# assign [class="Discord"] $ws4
+# assign [class="TelegramDesktop"] $ws5
+
+
+# automatic set focus new window if it opens on another workspace then the current:
+# for_window [class=alacritty] focus
+# for_window [class=(?i)firefox] focus
+# for_window [class=Thunar] focus
+# for_window [class=Thunderbird] focus
+# for_window [class=TelegramDesktop] focus
+
+# get auth work with polkit-gnome
+exec --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
+
+# dex execute .desktop files
+# keep in mind that it can cause issues 
+# when second to i3 a DE is installed or mixed usage of i3 + xfce4 or GNOME
+# in this cases better disable dex and use manual starting apps using xdg/autostart
+exec --no-startup-id dex -a -s /etc/xdg/autostart/:~/.config/autostart/
+
+# start a script to setup displays
+# uncomment the next line, use arandr to setup displays and save the file as monitor:
+exec --no-startup-id ~/.screenlayout/monitor.sh
+
+# set wallpaper
+exec --no-startup-id nitrogen --restore
+
+# Desktop notifications
+# exec --no-startup-id dbus-launch dunst --config ~/.config/dunst/dunstrc
+
+#set floating (nontiling) for special apps
+for_window [class="Pavucontrol" instance="pavucontrol"] floating enable
+for_window [class="feh" instance="feh"] floating enable
+for_window [class="1Password" instance="1password"] floating enable
+
+## Autostart
+
+# starting flameshot (+set keybinding)
+exec flameshot
+bindsym Print exec flameshot gui
+
+### ! Monokai Pro
+# set $black              #403E41
+# set $red                #FF6188
+# set $green              #A9DC76
+# set $yellow             #FFD866
+# set $blue               #FC9867
+# set $magenta            #AB9DF2
+# set $cyan               #78DCE8
+# set $white              #FCFCFA
+
+### ! One Dark Pro
+# set $black              #5C6370
+# set $red                #E06C75
+# set $green              #98C379
+# set $yellow             #E5C07B
+# set $blue               #61AFEF
+# set $magenta            #C678DD
+# set $cyan               #56B6C2
+# set $white              #828997
+
+### ! Gruvbox-dark
+set $black              #928374
+set $red                #FB4934
+set $green              #B8BB26
+set $yellow             #FABD2F
+set $blue               #83A598
+set $magenta            #D3869B
+set $cyan               #8EC07C
+set $white              #EBDBB2
+
+# class                 border bground text   indicator child_border
+client.focused          $white $white  $white $white    $white
+client.urgent           $white $white  $white $white    $white

@@ -1,0 +1,18 @@
+<p><p><a href="https://github.com/berarma/oversteer" target="_blank">Oversteer</a> continues to be the best way to setup and configure Steering Wheels on Linux. Oversteer 0.7.0 is out now and expands support for more wheels. Since, like a lot of other special hardware, the original manufacturer doesn't support Linux, community efforts like this are essential.</p>
+
+<p>Here's what's new:</p>
+
+<div class="markdown-body my-3" data-pjax="true" data-test-selector="body-content" data-view-component="true">
+<blockquote>
+<ul>
+	<li>Added Logitech G923, Thrustmaster T150 and T500RS to the list of supported wheels.</li>
+	<li>Added German, Finnish and Turkish translations.</li>
+	<li>Install udev rules by default in more sensible locations.</li>
+	<li>Bug fixes.</li>
+</ul>
+</blockquote>
+
+<p>I can easily attest to how great it is and how it really does make it simple. It continues working great with my own Logitech G29 to help adjust various settings. Depending on what hardware you have, Oversteer supports a lot. Features include emulation mode support, rotation range, force feedback gain, device profiles, the ability to combine accelerator/brakes pedals for games that use just one axis. If you combine it with the <a href="https://github.com/berarma/new-lg4ff" target="_blank">new-lg4ff driver</a>, you get even more features.</p>
+</div>
+
+<p style="text-align:center"><a data-fancybox="images" href="https://uploads.golmedia.net/uploads/articles/article_media/279420721642683544gol1.png" target="_blank"><img src="https://uploads.golmedia.net/uploads/articles/article_media/279420721642683544gol1.png" /></a></p><div id="mDcm51ngmVKnBGN">Article from <a href="https://www.gamingonlinux.com/">GamingOnLinux.com</a> taken from the RSS feed.</div></p>

@@ -1,0 +1,1 @@
+Quarkus is a foundation for building Java based applications; whether for the desktop, server or cloud. An excellent write up on usage can be found at https://fedoramagazine.org/using-the-quarkus-framework-on-fedora-silverblue-just-a-quick-look/. This article is primer for coding asynchronous processes using Quarkus and Mutiny.

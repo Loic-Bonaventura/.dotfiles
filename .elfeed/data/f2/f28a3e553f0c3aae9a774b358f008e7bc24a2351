@@ -1,0 +1,17 @@
+<article>
+	<section class="page">
+<p>The <strong>whois</strong> and <strong>jwhois</strong> commands allow you to retrieve a lot of information on Internet domains--likely a lot more than you might imagine. Here's how these commands work and how they can be useful.</p><p>To get started, you probably already use <strong>nslookup</strong> to check on domain names. When you do, you'll see output like this:</p><pre>$ nslookup networkworld.com
+Server:         127.0.0.53
+Address:        127.0.0.53#53
+
+Non-authoritative answer:
+Name:   networkworld.com
+Address: 151.101.2.165
+Name:   networkworld.com
+Address: 151.101.66.165
+Name:   networkworld.com
+Address: 151.101.194.165
+Name:   networkworld.com
+Address: 151.101.130.165
+</pre>
+<p>The nslookup command queries name servers, so its output provides IP addresses for the queried domain and verifies the domain name is valid, but <strong>whois</strong> commands provide extensive details on the domain registration, domain status, responsible organizations, their locations, etc., giving you a lot more insight into domains.</p><p class="jumpTag"><a href="/article/3643632/using-whois-jwhois-on-linux.html#jump">To read this article in full, please click here</a></p></section></article>

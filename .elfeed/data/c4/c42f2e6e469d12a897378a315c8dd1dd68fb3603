@@ -1,0 +1,1 @@
+A serious memory corruption vulnerability in polkit (formerly PolicyKit) has finally been discovered after 12+ years. This program is found in essentially all modern Linux distributions.

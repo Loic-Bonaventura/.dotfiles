@@ -1,0 +1,1 @@
+Azure Virtual Network is one of the most important resources to create a private network in Azure. It enables many types of Azure services to communicate with each other securely. In this article, we will see the steps to create a Virtual Network and how to add a subnet to it.

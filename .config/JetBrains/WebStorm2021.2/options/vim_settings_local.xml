@@ -1,0 +1,42 @@
+<application>
+  <component name="VimMarksSettings">
+    <globalmarks />
+    <filemarks>
+      <file name="$USER_HOME$/WebstormProjects/untitled/index.js" timestamp="1631205973652">
+        <mark key="[" line="1" column="0" />
+        <mark key="]" line="1" column="0" />
+        <mark key="." line="1" column="0" />
+        <mark key="^" line="1" column="0" />
+      </file>
+    </filemarks>
+    <jumps />
+  </component>
+  <component name="VimRegisterSettings">
+    <registers>
+      <register name="1" type="2">
+        <text encoding="base64">Y29uc29sZS5sb2cobXlWYXJpYWJsZSwgZWRpdG9yKTsK</text>
+      </register>
+      <register name="&quot;" type="2">
+        <text encoding="base64">Y29uc29sZS5sb2cobXlWYXJpYWJsZSwgZWRpdG9yKTsK</text>
+      </register>
+      <register name="2" type="2">
+        <text encoding="base64">Y29uc3QgbXlWYXJpYWJsZSA9ICdIZWxsbywgV29ybGQhJzsKCmNvbnNvbGUubG9nKG15VmFyaWFibGUpOwo=</text>
+      </register>
+      <register name="3" type="2">
+        <text encoding="base64">YWxvcnMgw6dhIG1hcgo=</text>
+      </register>
+      <register name="-" type="4">
+        <text encoding="base64">KQ==</text>
+      </register>
+      <register name="." type="4">
+        <text encoding="base64" />
+      </register>
+    </registers>
+  </component>
+  <component name="VimSearchSettings">
+    <search>
+      <last-dir encoding="base64">MQ==</last-dir>
+      <show-last encoding="base64">ZmFsc2U=</show-last>
+    </search>
+  </component>
+</application>

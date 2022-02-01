@@ -1,0 +1,8 @@
+<article>
+	<section class="page">
+<p>The <strong>csplit</strong> command is unusual in that allows you to split text files into pieces based on their content. The command allows you to specify a contextual string and use it as a delimiter for identifying the chunks to be saved as separate files.</p><p>As an example, if you wanted to separate diary entries into a series of files each with a single entry, you might do something like this.</p><pre>$ csplit -z diary '/^Dear/' '{*}'
+153
+123
+136
+</pre>
+<p>In this example, "diary" is the name of the file to be split. The command is looking for lines that begin with the word "Dear" as in "Dear Diary" to determine where each chunk begins. The <strong>-z</strong> option tells <strong>csplit</strong> to not bother saving files that would be empty.</p><p class="jumpTag"><a href="/article/3646188/splitting-files-on-linux-by-context.html#jump">To read this article in full, please click here</a></p></section></article>

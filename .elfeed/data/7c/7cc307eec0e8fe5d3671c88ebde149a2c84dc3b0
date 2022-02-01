@@ -1,0 +1,1 @@
+In this Linux tip, learn how to use the true and false commands. What they do is very simple. The true command generates an exit code of 0 (no problems) and the false command generates a value of 1.

@@ -1,0 +1,11 @@
+[Added Associations]
+text/plain=nvim.desktop;visual-studio-code.desktop;org.pwmt.zathura.desktop;
+text/x-csrc=visual-studio-code.desktop;
+text/x-python=visual-studio-code.desktop;
+image/jpeg=gpicview.desktop;
+
+[Default Applications]
+x-scheme-handler/mailto=chromium.desktop
+x-scheme-handler/gitkraken=GitKraken.desktop
+x-scheme-handler/msteams=teams.desktop
+application/pdf=org.pwmt.zathura.desktop

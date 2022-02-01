@@ -1,0 +1,13 @@
+<article>
+	<section class="page">
+<p>The <strong>timedatectl</strong> command allows you to both query and change the system clock and its settings on Linux systems.</p><p>To display the current settings, use the command by itself—with no arguments. You should see something like this:</p><aside class="fakesidebar"><a href="https://www.networkworld.com/newsletters/signup.html">[Get regularly scheduled insights by signing up for Network World newsletters.]</a></aside>
+<pre>$ timedatectl
+               Local time: Thu 2021-12-16 11:12:31 EST
+           Universal time: Thu 2021-12-16 16:12:31 UTC
+                 RTC time: Thu 2021-12-16 16:12:31	    &lt;; real time clock
+                Time zone: America/New_York (EST, -0500)
+System clock synchronized: yes
+              NTP service: active
+          RTC in local TZ: no
+</pre>
+<p>The fields shown include the local time, universal time (the same around the globe), RTC (the real-time clock, usually an integrated circuit), and the time zone (America/New York” is the Eastern US time zone). NTP is network time protocol for clock synchronization between computer systems over packet-switched, variable-latency data networks. In this case, the RTC it is not set to the local time zone.</p><p class="jumpTag"><a href="/article/3645448/using-the-timedatectl-command-to-control-your-linux-time-and-time-zone.html#jump">To read this article in full, please click here</a></p></section></article>

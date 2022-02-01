@@ -1,0 +1,20 @@
+<p><p>Valve continues to tweak more of their games ahead of the Steam Deck release in February and their focus now appears to be on CS:GO with a fresh update out.</p>
+
+<p>A few more Steam Input improvements came for controllers, with their newer "FlickStick" mode enabled in the game options instead of the Steam Input Configurator and there's also refinements to the behaviour. For those not aware, FlickStick <a href="http://gyrowiki.jibbsmart.com/blog:good-gyro-controls-part-2:the-flick-stick" target="_blank">created by Jibb Smart</a> is in essence a quick way to turn to face any direction in a game, allowing you to be more accurate and speedy with gamepad sticks. Valve added support for it to Steam Input directly in 2021, now it has better native support in CS:GO.</p>
+
+<p style="text-align:center"><a data-fancybox="images" href="https://uploads.golmedia.net/uploads/articles/article_media/5511558221642520051gol1.jpg" target="_blank"><img src="https://uploads.golmedia.net/uploads/articles/article_media/5511558221642520051gol1.jpg" /></a></p>
+
+<p>For the Vulkan support, it was originally introduced in experimental form in CS:GO on December 14 - 2021, and it's not clear what updates have been done in the January 17 - 2022 update, as the team simply mentioned again that CS:GO now has Vulkan API support which you can enable by adding "-vulkan" as a launch option for the game on Steam. Presumably this will be the default for the Steam Deck to ensure smooth performance. This is using the <a href="https://github.com/Joshua-Ashton/dxvk-native" target="_blank">DXVK-Native</a> project.</p>
+
+<p>Additionally the update also notes these fixes:</p>
+
+<blockquote>
+<ul>
+	<li>Fixed Hammer crash on startup when not logged into Steam.</li>
+	<li>Fixed input delay after closing radial menu.</li>
+	<li>Tooltips to help clarify console controller settings.</li>
+	<li>Various fixes to sliders.</li>
+</ul>
+</blockquote>
+
+<p>You can play CS:GO free on Linux from <a href="https://store.steampowered.com/app/730/CounterStrike_Global_Offensive/?curator_clanid=4218320" target="_blank">Steam</a>.</p><div id="2FYFGa9dyqDoXjK">Article from <a href="https://www.gamingonlinux.com/">GamingOnLinux.com</a> taken from the RSS feed.</div></p>

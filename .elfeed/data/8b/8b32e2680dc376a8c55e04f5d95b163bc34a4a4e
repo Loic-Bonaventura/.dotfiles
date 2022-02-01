@@ -1,0 +1,17 @@
+<p><p>Just over a year since the last major version bump, Alexandre Julliard has announced the final <a href="https://www.winehq.org/announce/7.0" target="_blank">release of Wine 7.0</a>. This is the compatibility layer that allows you to run Windows applications and games on Linux, macOS and other systems.</p>
+
+<p>For those who have been running the biweekly development releases, the feature list of what has changed won't be new. As the main releases are just all the work in the development releases, plus a little extra time spent on bug fixing during the Release Candidate stage.</p>
+
+<p>Just some of what's new since Wine 6.0 includes:</p>
+
+<ul>
+	<li>Most modules converted to PE format. They're nearly finished with this, with plans to convert the rest after 7.0.</li>
+	<li>Better theming support, with a bundled theme for a more modern look.</li>
+	<li>Vastly improved HID stack and joystick support.</li>
+	<li>New WoW64 architecture. The team say once the remaining modules are converted to PE, "this will make it possible to run 32-bit applications without installing 32-bit Unix libraries".</li>
+	<li>Lots more work on Direct3D support with many more Direct3D 10 and 11 features implemented.</li>
+	<li>Media Foundation support is more complete.</li>
+	<li>Mono engine updated to version 7.0.0.</li>
+</ul>
+
+<p>We don't know when Steam Play Proton will see an update. Last we saw, it was <em>planned</em> at some point.</p><div id="U47DfPT7uOB@SKZ">Article from <a href="https://www.gamingonlinux.com/">GamingOnLinux.com</a> taken from the RSS feed.</div></p>

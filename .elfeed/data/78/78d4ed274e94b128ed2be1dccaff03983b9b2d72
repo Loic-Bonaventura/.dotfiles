@@ -1,0 +1,17 @@
+<p><p>The Vulkan-based implementation of D3D9, D3D10 and D3D11 for Linux / Wine named DXVK (used with Proton) has a 1.9.4 version release, plus it appears that Proton 7.0 is closing in. More info on Steam Play Proton on our <a href="http://steamproton.com" target="_blank">dedicated page</a>.</p>
+
+<p>DXVK 1.9.4 is quite a small one simply preparing for the next Proton release, here's what's new:</p>
+
+<blockquote>
+<ul>
+	<li>Fixed an issue that would cause VRAM to not be utilized on RBAR-enabled Nvidia GPUs if the <code class="inline-code">dxvk.shrinkNvidiaHvvHeap</code> option is enabled (<a class="issue-link js-issue-link" href="https://github.com/doitsujin/dxvk/issues/2438" target="_blank">#2438</a>).</li>
+	<li>Enabled strict D3D9 float emulation by default on future versions of RADV. This may improve both accuracy and GPU-bound performance (PR <a class="issue-link js-issue-link" href="https://github.com/doitsujin/dxvk/pull/2448" target="_blank">#2448</a>).</li>
+	<li>Improved memory allocation behaviour. This may reduce memory usage especially in games that create multiple processes or D3D devices.</li>
+	<li>Removed obsolete options to disable OpenVR support.</li>
+	<li><strong>God of War</strong>: Enabled performance optimizations and DLSS support. <em>Note that these changes are already included in Proton Experimental.</em></li>
+</ul>
+</blockquote>
+
+<p>More exciting is that it appears we shall be getting a new version of Proton soon, which will be rebased on the most recent Wine 7.0 release. You can see on <a href="https://steamdb.info/app/1493710/history/?changeid=13748510" target="_blank">SteamDB</a> that the Proton team has been preparing it with a currently private Release Candidate in testing too. This should hopefully bring more compatibility for Windows games ready for the Steam Deck to release in February.</p>
+
+<p><em>Be sure to follow our <a href="https://www.gamingonlinux.com/articles/category/Steam_Deck/" target="_blank">Steam Deck tag</a> for all the news. All tags have a dedicated RSS feed.</em></p><div id="cRtrg@I3dHjEPDD">Article from <a href="https://www.gamingonlinux.com/">GamingOnLinux.com</a> taken from the RSS feed.</div></p>

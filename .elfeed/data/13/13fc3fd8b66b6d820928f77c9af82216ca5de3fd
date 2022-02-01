@@ -1,0 +1,19 @@
+<p><p>Serious Sam: Siberian Mayhem is out now as a partnership between Timelock Studio and Croteam. It can run rather well on Linux, although you do need a quick adjustment for <a href="http://steamproton.com" target="_blank">Steam Play Proton</a>.</p>
+
+<p>This is a much shorter and simpler game than previous entries, as it's a sort-of standalone expansion that sits together with Serious Sam 4. Although, going in cold is not a big deal, since it's mostly the usual mindless fast-paced shooting you would expect from a Serious Sam game. The game actually started off life from a modding team, who under guidance from Croteam, turned it into an official game in the series.</p>
+
+<a href="https://www.youtube.com/watch?v=RWj7V67b5LQ" rel="noopener noreferrer"><img src="https://img.youtube.com/vi/RWj7V67b5LQ/0.jpg" alt="youtube video thumbnail"><br />Watch video on YouTube.com</a>
+
+<p>Out of the box, it does <em>work</em> on Linux with Proton and so it will on the Steam Deck too. However, there's <em>no</em> sound. A quick fix is available though! All you need to do is go into the sound settings and select <u>OpenAL</u> as the output instead of the default XAudio. After that, it all works as you would expect.</p>
+
+<p>Performance is a bit shaky though, which is true on Windows as well. Since it's using Croteam's game engine, you can swap Direct3D 11 for Vulkan in the Graphics options to get native Vulkan on Linux (instead of it going through DXVK). In my own testing (at least on NVIDIA), you're definitely going to want to hit the switch to Vulkan too, as it gave a boost of ~20FPS in most cases and was less stuttery too.</p>
+
+<p>It clearly needs some more optimization as a whole though, as other players have also noticed the low GPU usage and micro-stuttering that's completely random even with nothing happening. Most of the time it's okay and good enough to run and gun your way through it.</p>
+
+<p style="text-align:center"><a data-fancybox="images" href="https://uploads.golmedia.net/uploads/articles/article_media/3707492161643208311gol1.jpg" target="_blank"><img src="https://uploads.golmedia.net/uploads/articles/article_media/3707492161643208311gol1.jpg" /></a></p>
+
+<p>You don't get much breathing space, your heart will be furiously pumping and your fingers may begin to ache as it's so fast. Perhaps a little too fast at times, everything feels like someone set a knocked a magical speed dial up. Honestly, it's like you're on roller skates but that is true of most Serious Sam games.</p>
+
+<p>It does the job quite nicely of making you feel like the ultimate bad-ass with no filler — it's all action. Unless you count a few optional side-missions, which are still full of completely insane action. A few dumb one-liners too because what's a hero without that? If that's what you're after, it's thoroughly entertaining.</p>
+
+<p>Available to buy on <a href="https://www.humblebundle.com/store/serious-sam-siberian-mayhem?partner=gamingonlinux&charity=12277" target="_blank">Humble Store</a> and <a href="https://store.steampowered.com/app/1792250/Serious_Sam_Siberian_Mayhem/" target="_blank">Steam</a>.</p><div id="q-ldFsdael1DRNX">Article from <a href="https://www.gamingonlinux.com/">GamingOnLinux.com</a> taken from the RSS feed.</div></p>

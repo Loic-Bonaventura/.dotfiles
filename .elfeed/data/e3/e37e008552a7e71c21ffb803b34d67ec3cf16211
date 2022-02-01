@@ -1,0 +1,11 @@
+<p><p>Making things even easier for the upcoming Steam Deck, the unofficial Heroic Games Launcher for Epic Games can now be navigated with a gamepad. Testing it out today, it works really nicely too. Just goes to show what amazing things a community can do, even when Epic doesn't support Linux directly with their store.</p>
+
+<p>You even get a nice on-screen keyboard show up for text input - very nice.</p>
+
+<p style="text-align:center"><a data-fancybox="images" href="https://uploads.golmedia.net/uploads/articles/article_media/11067940651643107886gol1.png" target="_blank"><img src="https://uploads.golmedia.net/uploads/articles/article_media/11067940651643107886gol1.png" /></a></p>
+
+<p>Other improvements in the Heroic 2.1.0 release include the app remembering window size and position, CTRL+F shortcut for the search bar in the library, a new Wine Downloader feature to easily get new versions of Wine-GE and Proton-GE, the app will check the status of Epic's servers and give warnings on issues and a few other assorted UI updates and bug fixes.</p>
+
+<p>Work is still <a href="https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/pull/515" target="_blank">in progress</a> to support Flatpak / Flathub, once that is done installing this on a Steam Deck or any other Linux distribution should be super-simple.</p>
+
+<p>You can find it on <a href="https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher" target="_blank">GitHub</a>.</p><div id="ZXfoUu7uONoA11h">Article from <a href="https://www.gamingonlinux.com/">GamingOnLinux.com</a> taken from the RSS feed.</div></p>

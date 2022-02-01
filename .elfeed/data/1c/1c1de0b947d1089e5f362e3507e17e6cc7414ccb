@@ -1,0 +1,15 @@
+<p><p>Valve has announced the latest upgrade to help players with a Steam Deck. It's called <a href="https://steamcommunity.com/groups/steamworks/announcements/detail/3142949576401813670" target="_blank">Dynamic Cloud Sync</a> and will let you easily switch between your PC and a Steam Deck.</p>
+
+<p>The idea is that when you enter suspend mode on the Steam Deck, like you might with other consoles, the Steam Deck will then upload any modified save data to the Steam Cloud ready to be picked up anywhere else. When you wake the device, it will then automatically download any changes ready for you to carry on.</p>
+
+<p>Valve say this is not a requirement but they "recommend" developer use it to give players the best experience possible. Without it though, there may be problems as Valve say: "Without Dynamic Cloud Sync enabled, Steam will still track when save game data is changed on the Steam Deck. However, any user who suspends their Deck while your game is running and then tries to resume that game on a different device, will be prompted to first return to their Deck to close the running process or continue without their most recent save game progress".</p>
+
+<p>It's free to use but not automatic so developers must do some work to take advantage of it. This includes new integrations into games, which is where some problems may arise. This has been announced really close to the release of the Steam Deck, which of course is not ideal for developers who are often already overworked. Are many likely to go back through their older titles to add it in? It doesn't seem overly likely.</p>
+
+<p>FNA developer and game porter Ethan Lee mentioned on <a href="https://twitter.com/flibitijibibo/status/1485743783329337350" target="_blank">Twitter</a>: "Considering an overwhelming majority of titles I see use autocloud I'm hoping sleep mode triggers a transaction and resuming makes it go 'we detected new save data from another PC, do you want to restart the game?' because no way is anyone going into their back catalog for _this_".</p>
+
+<p>Developer Tyler Glaiel (The End is Nigh, Bombernauts, The Basement Collection and more) also seemed <a href="https://twitter.com/TylerGlaiel/status/1485738462560980994" target="_blank">unimpressed</a> on Twitter <a href="https://twitter.com/TylerGlaiel/status/1485744272095670273" target="_blank">too</a>.</p>
+
+<p>It is more work for developers but hopefully over time it will become something developers think on during development. As players, we can just hope developers find easy enough ways to implement it and share that with others.</p>
+
+<p><em>Be sure to follow our <a href="https://www.gamingonlinux.com/articles/category/Steam_Deck/" target="_blank">Steam Deck tag</a> for all the news. All tags have a dedicated RSS feed.</em></p><div id="9b7joPl7MCJEITC">Article from <a href="https://www.gamingonlinux.com/">GamingOnLinux.com</a> taken from the RSS feed.</div></p>

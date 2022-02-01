@@ -1,0 +1,1 @@
+A heap overflow bug was recently discovered in the Linux kernel. The patch is available now in most major Linux distributions.

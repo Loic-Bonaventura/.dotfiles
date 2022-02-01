@@ -1,0 +1,45 @@
+map u scroll half-up
+map d scroll half-down
+map K zoom in
+map J zoom out
+map D toggle_page_mode
+map r reload
+map R rotate
+
+set sandbox none
+
+# Doom One Colour Scheme
+
+set notification-error-bg       "#FF6C6B" # Red
+set notification-error-fg       "#DFDFDF" # Foreground
+set notification-warning-bg     "#ECBE7B" # Orange
+set notification-warning-fg     "#5B6268" # Selection
+set notification-bg             "#282C34" # Background
+set notification-fg             "#DFDFDF" # Foreground
+
+set completion-bg               "#282C34" # Background
+set completion-fg               "#6272a4" # Comment
+set completion-group-bg         "#282C34" # Background
+set completion-group-fg         "#6272a4" # Comment
+set completion-highlight-bg     "#44475a" # Selection
+set completion-highlight-fg     "#DFDFDF" # Foreground
+
+set index-bg                    "#282C34" # Background
+set index-fg                    "#DFDFDF" # Foreground
+set index-active-bg             "#282C34" # Current Line
+set index-active-fg             "#DFDFDF" # Foreground
+
+set inputbar-bg                 "#282C34" # Background
+set inputbar-fg                 "#DFDFDF" # Foreground
+set statusbar-bg                "#282C34" # Background
+set statusbar-fg                "#DFDFDF" # Foreground
+
+set highlight-color             "#A9A1E1" # Purple
+set highlight-active-color      "#DFDFDF" # Pink
+
+set default-bg                  "#282C34" # Background
+set default-fg                  "#DFDFDF" # Foreground
+
+set render-loading              true
+set render-loading-fg           "#282C34" # Background
+set render-loading-bg           "#DFDFDF" # Foreground

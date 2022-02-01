@@ -1,0 +1,14 @@
+<p><p><a href="https://flathub.org" target="_blank">Flathub</a> and Flatpak packages are the future of Linux apps, according to more people, and GNOME are continuing to invest in it. They have some big plans to improve it too.</p>
+
+<p>Writing in a <a href="https://foundation.gnome.org/2022/01/21/further-investments-in-desktop-linux/" target="_blank">new blog post</a> on the GNOME Foundation website, they went over a number of things and not just Flathub related but that's what we're going to focus on for this article. The plans actually sounds pretty good!</p>
+
+<p>Firstly, Flathub is going to gain a way to process and verify apps from first-party teams. As in, developers who directly publish their app and manage the Flatpak package process for Flathub. A way to actually properly distinguish official apps from community builds will be quite important for so many reasons (security, privacy and so on). Not only that but GNOME want to give developers a way to collect donations and subscriptions too, which is also important to help make it more sustainable. Sounds like it's possible a way will be added for developers to share some of the revenue with Flathub too, ensuring it too is sustainable.</p>
+
+<p>To improve the experience further another part of the plan is to support multiple repositories, to enable a split between these first-party apps and community contributions, and have one where only free and open source apps live. That way, users get more of a choice on what they see and it just gives a little more control over all. Part of the hope is that they can get GNOME Software and KDE Discover to support all this, and note it all like verify apps and such. Think of it like see a nice big blue tick in whatever software store you use to see clearly it's official.</p>
+
+<p>You can see the plans in a bit more detail on their original <a href="https://discourse.flathub.org/t/seeking-contractors-for-work-on-flathub-project/1889" target="_blank">Discourse post</a>.</p>
+
+<p>Also be sure to check out a pretty good video overview on Flatpak from Nick at The Linux Experiment:</p>
+
+<div class="youtube-embed-wrapper" data-video-url="https://www.youtube-nocookie.com/embed/zs9QpPKDw74?rel=0" data-video-urlpreview="https://www.gamingonlinux.com/cache/youtube_thumbs/6c456a1958620c3fb37e5679d2bc935c.jpg" style="position:relative;padding-bottom:56.25%;padding-top:30px;height:0;overflow:hidden"><iframe allowfullscreen="" frameborder="0" height="360" src="https://www.youtube-nocookie.com/embed/zs9QpPKDw74?rel=0" style="position:absolute;top:0;left:0;width:100%;height:100%" width="640"><br />
+</iframe></div><div id="sF5HFwcYpJ_4fUO">Article from <a href="https://www.gamingonlinux.com/">GamingOnLinux.com</a> taken from the RSS feed.</div></p>
